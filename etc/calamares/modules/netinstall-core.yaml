@@ -1,0 +1,141 @@
+- name: "Stock Arch Kernel"
+  description: "Always selected (Required!)"
+  critical: false
+  hidden: false
+  selected: true
+  expanded: false
+  packages:
+    - linux
+    - linux-headers
+- name: "Processor U-Code"
+  description: "Expand & Select Correct CPU Microcode"
+  critical: true
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amd-ucode
+    - intel-ucode
+- name: "Lightdm Login"
+  description: "For Intel/nVidia Hybrid Laptops"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - lightdm
+    - lightdm-gtk-greeter
+    - lightdm-gtk-greeter-settings
+    - lightdm-webkit2-greeter
+- name: "Optimus Manager"
+  description: "Enable Intel/nVidia GPU Switching"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - optimus-manager
+    - optimus-manager-qt
+- name: "Stable LTS Kernel"
+  description: "Long Term Support Kernel"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - linux-lts
+    - linux-lts-headers
+- name: "Zen-Patched Kernel"
+  description: "For Best Compatibility"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - linux-zen
+    - linux-zen-headers
+- name: "AMD Ryzen Kernel"
+  description: "For Latest AMD Ryzen CPUs"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - linux-amd
+    - linux-amd-headers
+- name: "AMD Raven Ridge Kernel"
+  description: "For Latest AMD Raven Ridge APUs"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - linux-amd-raven
+    - linux-amd-raven-headers
+- name: "nVidia GPU Drivers + DKMS"
+  description: "Select DKMS only if Custom Kernel chosen"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - nvidia
+    - nvidia-settings
+    - nvidia-utils
+    - nvidia-dkms
+- name: "Nvidia-lts GPU Drivers"
+  description: "If Linux-LTS Kernel Selected"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - nvidia-lts
+    - nvidia-settings
+    - nvidia-utils
+- name: "Noveau GPU Drivers"
+  description: "Open Source GPU Driver"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-nouveau
+- name: "Intel GPU Drivers"
+  description: "Intel Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-intel
+- name: "Nvidia Tools"
+  description: "Expand & Select Only What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - cuda
+    - bumblebee
+    - disper
+    - gwe
+    - nvidia-xrun
+    - nvtop
+- name: "AMD GPU Drivers"
+  description: "Installs AMD Graphics drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-amdgpu
+- name: "Generic GPU Drivers"
+  description: "Various Other xf86 drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-openchrome
+    - xf86-video-vesa

@@ -1,0 +1,51 @@
+- name: "Extra Fonts"
+  description: "Either Select All or Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - ttf-anonymous-pro
+    - terminus-font
+    - ttf-bitstream-vera
+    - ttf-liberation
+    - ttf-carlito
+    - ttf-cormorant
+    - ttf-croscore
+    - ttf-eurof
+    - ttf-font-awesome
+    - ttf-hactor
+    - ttf-ibm-plex
+    - ttf-jetbrains-mono
+    - ttf-meslo-nerd-font-powerlevel10k
+    - ttf-monofur
+    - ttf-ms-fonts
+    - ttf-nerd-fonts-symbols
+- name: "Themes & Icons"
+  description: "Either Select All or Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - adapta-gtk-theme
+    - arc-gtk-theme
+    - arc-icon-theme
+    - arcolinux-arc-kde
+    - arcolinux-arc-themes-git
+    - arcolinux-kvantum-theme-arc-git
+    - faba-icon-theme-git
+    - faba-mono-icons-git
+    - halo-icons-git
+    - materia-gtk-theme
+    - materia-kde
+    - moka-icon-theme-git
+    - numix-circle-arc-icons-git
+    - numix-circle-icon-theme-git
+    - numix-gtk-theme-git
+    - openbox-themes-pambudi-git
+    - oxy-neon
+    - paper-icon-theme
+    - papirus-icon-theme
+    - surfn-mint-y-icons-git
+    - zafiro-icon-theme

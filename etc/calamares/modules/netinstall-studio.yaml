@@ -1,0 +1,113 @@
+- name: "Audio Studio"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amarok
+    - ardour
+    - audacious
+    - audacious-plugins
+    - audacity
+    - clementine
+    - deadbeef
+    - elisa
+    - gmusicbrowser
+    - kwave
+    - lmms
+    - radiotray
+    - rhythmbox
+    - sayonara-player
+    - soundconverter
+    - spotify-adblock-git
+    - tauon-music-box
+    - viper4linux-gui
+- name: "Dev Studio"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - atom
+    - code
+    - emacs
+    - gammaray
+    - gitahead-bin
+    - gitg
+    - gitfiend
+    - gitkraken
+    - geany
+    - guvcview
+    - hugo
+    - kdevelop
+    - notepadqq
+    - pycharm-community-edition
+    - simplenote-electron-bin
+    - sublime-text-4
+    - vim
+    - vim-runtime
+    - vim-plugins
+    - visual-studio-code-bin
+- name: "Game Clients & Launchers"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - lutris
+    - minecraft-launcher
+    - playonlinux
+    - proton-community-updater
+    - steam
+    - steam-native-runtime
+    - steam-tweaks
+- name: "Graphics Studio"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - flameshot    
+    - gimp
+    - inkscape
+    - krita
+- name: "Office Desk"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+    - ms-office-online
+- name: "Video Studio"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - filebot
+    - guvcview
+    - handbrake
+    - hypnotix
+    - kdenlive
+    - makemkv
+    - mediainfo-gui
+    - mkvtoolnix-gui
+    - obs-studio
+    - openshot
+    - pitivi
+    - plex-media-player
+    - plex-media-server
+    - simplescreenrecorder
+    - youtube-dl

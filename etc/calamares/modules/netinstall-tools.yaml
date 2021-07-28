@@ -1,0 +1,205 @@
+- name: "Android Tools"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - android-tools
+    - android-file-transfer
+    - android-sdk-platform-tools
+    - droidcam
+    - qtscrcpy
+    - scrcpy
+- name: "Benchmarking Tools"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - blender-benchmark
+    - geekbench
+    - gputest
+    - phoronix-test-suite
+- name: "Browsers & Internet Tools"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - chromium
+    - dropbox
+    - evolution
+    - filezilla
+    - firefox-adblock-plus
+    - firefox-i18n-$LOCALE
+    - freedownloadmanager
+    - librewolf-bin
+    - megasync-bin
+    - nextcloud-client
+    - tor-browser
+    - vivaldi
+    - vivaldi-widevine
+    - vivaldi-ffmpeg-codecs
+    - webapp-manager
+- name: "BTRFS Tools"
+  description: "Select it All if you need it."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - grub-btrfs
+    - timeshift-autosnap
+- name: "Disk & USB Tools"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - brasero
+    - baobab
+    - etcher-bin
+    - gparted
+    - rpi-imager
+    - ventoy-bin
+    - woeusb
+- name: "iOS Device Support"
+  description: "Select it All if you need it."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - ifuse
+    - shotwell
+- name: "Package Manager GUI Front-End"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bauh
+    - discover
+    - flatpak
+    - gnome-software
+    - octopi
+    - pamac-all
+    - pamac-aur
+    - snapd
+- name: "Password Managers"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - bitwarden-bin
+    - enpass-bin
+    - keepassxc
+    - lastpass  
+- name: "Remote Desktop Clients"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - krdc
+    - nomachine
+    - realvnc-vnc-server
+    - realvnc-vnc-viewer
+    - remina
+    - teamviewer
+- name: "Social-Media Clients"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - discord
+    - element-desktop
+    - google-messages
+    - pidgin
+    - skypeforlinux-stable-bin
+    - slack-desktop
+    - teams
+    - telegram-desktop
+    - tweetdeck-desktop
+    - whatsapp-nativefier
+    - zoom
+- name: "Theming UI Tools"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - conky-lua-archers
+    - conky-collection-plasma
+    - variety
+    - xscreensaver
+- name: "Torrent Clients"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - deluge
+    - ktorrent
+    - qbittorrent
+    - transmission-gtk
+- name: "Utilities"
+  description: "Expand & Select What You Need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - arcolinux-reflector-simple-git
+    - auto-cpufreq
+    - bpytop
+    - caffeine-ng
+    - cpu-x
+    - grub-customizer
+    - mcomix
+    - openrgb
+    - putty
+    - sigil
+    - solaar
+    - system76-power
+    - vtop
+    - warpinator
+    - wireshark-qt
+    - wttr    
+- name: "VirtualBox + VMWare"
+  description: "For Custom Kernel vBox+DKMS Else vBox+Arch"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - virtualbox
+    - vmware-workstation
+    - virtualbox-ext-vnc
+    - virtualbox-guest-iso
+    - virtualbox-guest-utils
+    - virtualbox-host-dkms
+    - virtualbox-host-modules-arch
+- name: "Wine Windows Compatibility Layer"
+  description: "Select it All if you need it."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - wine
+    - wine-gecko
+    - wine-mono
+    - winetricks
