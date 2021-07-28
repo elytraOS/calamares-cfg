@@ -206,6 +206,7 @@
   selected: false
   expanded: false
   packages:
+    - appimagelauncher
     - arcolinux-reflector-simple-git
     - auto-cpufreq
     - bpytop
