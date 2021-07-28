@@ -1,5 +1,5 @@
 - name: "Extra Fonts"
-  description: "Either Select All or Expand & Select What You Need"
+  description: "Handpicked Fonts"
   critical: false
   hidden: false
   selected: false
@@ -22,7 +22,7 @@
     - ttf-ms-fonts
     - ttf-nerd-fonts-symbols
 - name: "Themes & Icons"
-  description: "Either Select All or Expand & Select What You Need"
+  description: "Handpicked Desktop & Icon Themes"
   critical: false
   hidden: false
   selected: false

@@ -73,7 +73,7 @@
     - linux-amd-raven
     - linux-amd-raven-headers
 - name: "nVidia GPU Drivers + DKMS"
-  description: "Select DKMS only if Custom Kernel chosen"
+  description: "Select DKMS For Custom Kernel"
   critical: false
   hidden: false
   selected: false

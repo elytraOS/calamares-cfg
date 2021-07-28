@@ -1,5 +1,5 @@
 - name: "Audio Studio"
-  description: "Expand & Select What You Need"
+  description: "Best in Class Audio Tools"
   critical: false
   hidden: false
   selected: false
@@ -24,7 +24,7 @@
     - tauon-music-box
     - viper4linux-gui
 - name: "Dev Studio"
-  description: "Expand & Select What You Need"
+  description: "Some Dev Tools"
   critical: false
   hidden: false
   selected: false
@@ -50,8 +50,8 @@
     - vim-runtime
     - vim-plugins
     - visual-studio-code-bin
-- name: "Game Clients & Launchers"
-  description: "Expand & Select What You Need"
+- name: "Game Launchers"
+  description: "Select what ya need"
   critical: false
   hidden: false
   selected: false
@@ -65,7 +65,7 @@
     - steam-native-runtime
     - steam-tweaks
 - name: "Graphics Studio"
-  description: "Expand & Select What You Need"
+  description: "Some Graphic Apps"
   critical: false
   hidden: false
   selected: false
@@ -79,7 +79,7 @@
     - inkscape
     - krita
 - name: "Office Desk"
-  description: "Expand & Select What You Need"
+  description: "LibreOffice & M$-Office"
   critical: false
   hidden: false
   selected: false
@@ -90,7 +90,7 @@
     - hunspell-$LOCALE
     - ms-office-online
 - name: "Video Studio"
-  description: "Expand & Select What You Need"
+  description: "Cherrypicked Video Apps"
   critical: false
   hidden: false
   selected: false
