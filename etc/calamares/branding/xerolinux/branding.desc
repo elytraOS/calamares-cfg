@@ -75,8 +75,8 @@ sidebar: widget
 strings:
     productName:         XeroLinux
     shortProductName:    XeroLinux
-    version:             2021.07
-    shortVersion:        2021.07.20
+    version:             2021.08
+    shortVersion:        2021.07.15
     versionedName:       XeroLinux
     shortVersionedName:  XeroLinux
     bootloaderEntryName: XeroLinux
@@ -110,7 +110,7 @@ uploadServer :
 images:
     productLogo:         "logo.png"
     productIcon:         "logo.png"
-    productWelcome:      "welcome.png"
+    productWelcome:      "Welcome.png"
     
 # The slideshow is displayed during execution steps (e.g. when the
 # installer is actually writing to disk and doing other slow things).
