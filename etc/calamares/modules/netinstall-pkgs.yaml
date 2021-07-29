@@ -336,6 +336,7 @@
     - plex-media-player
     - plex-media-server
     - simplescreenrecorder
+    - vlc
     - youtube-dl
 - name: "VirtualBox + VMWare"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
