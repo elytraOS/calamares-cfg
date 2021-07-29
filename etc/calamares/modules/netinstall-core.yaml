@@ -27,6 +27,7 @@
     - lightdm-gtk-greeter
     - lightdm-gtk-greeter-settings
     - lightdm-webkit2-greeter
+    - kwallet-pam
 - name: "Optimus Manager"
   description: "Enable Intel/nVidia GPU Switching"
   critical: false

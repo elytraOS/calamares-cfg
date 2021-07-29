@@ -11,6 +11,31 @@
     - droidcam
     - qtscrcpy
     - scrcpy
+- name: "Audio Tools"
+  description: "Best in Class Audio Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amarok
+    - ardour
+    - audacious
+    - audacious-plugins
+    - audacity
+    - clementine
+    - deadbeef
+    - elisa
+    - gmusicbrowser
+    - kwave
+    - lmms
+    - radiotray
+    - rhythmbox
+    - sayonara-player
+    - soundconverter
+    - spotify-adblock-git
+    - tauon-music-box
+    - viper4linux-gui
 - name: "Benchmarking Tools"
   description: "Test you Machine for Gaming"
   critical: false
@@ -53,6 +78,33 @@
   packages:
     - grub-btrfs
     - timeshift-autosnap
+- name: "Dev Studio"
+  description: "Some Dev Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - atom
+    - code
+    - emacs
+    - gammaray
+    - gitahead-bin
+    - gitg
+    - gitfiend
+    - gitkraken
+    - geany
+    - guvcview
+    - hugo
+    - kdevelop
+    - notepadqq
+    - pycharm-community-edition
+    - simplenote-electron-bin
+    - sublime-text-4
+    - vim
+    - vim-runtime
+    - vim-plugins
+    - visual-studio-code-bin
 - name: "Disk & USB Tools"
   description: "Drive Manipulation Tools"
   critical: false
@@ -90,6 +142,35 @@
     - ttf-monofur
     - ttf-ms-fonts
     - ttf-nerd-fonts-symbols
+- name: "Game Launchers"
+  description: "Select what ya need"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - lutris
+    - minecraft-launcher
+    - playonlinux
+    - proton-community-updater
+    - steam
+    - steam-native-runtime
+    - steam-tweaks
+- name: "Graphics Studio"
+  description: "Some Graphic Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - blender
+    - darktable
+    - digikam
+    - flameshot    
+    - gimp
+    - imagemagick
+    - inkscape
+    - krita
 - name: "iOS Device Support"
   description: "If you own an iOS Device"
   critical: false
@@ -99,6 +180,17 @@
   packages:
     - ifuse
     - shotwell
+- name: "Office Desk"
+  description: "LibreOffice & M$-Office"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+    - hunspell-$LOCALE
+    - ms-office-online
 - name: "Package Management"
   description: "Package Manager GUI Front-End"
   critical: false
@@ -124,7 +216,7 @@
     - bitwarden-bin
     - enpass-bin
     - keepassxc
-    - lastpass  
+    - lastpass
 - name: "Remote Desktop"
   description: "Control Destops Remotely"
   critical: false
@@ -222,9 +314,31 @@
     - vtop
     - warpinator
     - wireshark-qt
-    - wttr    
+    - wttr
+- name: "Video Studio"
+  description: "Cherrypicked Video Apps"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - filebot
+    - guvcview
+    - handbrake
+    - hypnotix
+    - kdenlive
+    - makemkv
+    - mediainfo-gui
+    - mkvtoolnix-gui
+    - obs-studio
+    - openshot
+    - pitivi
+    - plex-media-player
+    - plex-media-server
+    - simplescreenrecorder
+    - youtube-dl
 - name: "VirtualBox + VMWare"
-  description: "For Custom Kernel vBox+DKMS Else vBox+Arch"
+  description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
   hidden: false
   selected: false
