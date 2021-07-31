@@ -54,6 +54,7 @@
   selected: false
   expanded: false
   packages:
+    - brave-bin
     - chromium
     - dropbox
     - evolution
@@ -65,9 +66,6 @@
     - megasync-bin
     - nextcloud-client
     - tor-browser
-    - vivaldi
-    - vivaldi-widevine
-    - vivaldi-ffmpeg-codecs
     - webapp-manager
 - name: "BTRFS Tools"
   description: "If you want to use BTRFS"
@@ -192,7 +190,7 @@
     - hunspell-$LOCALE
     - ms-office-online
 - name: "Package Management"
-  description: "Package Manager GUI Front-End"
+  description: "Additional Package Managers"
   critical: false
   hidden: false
   selected: false
@@ -203,8 +201,6 @@
     - flatpak
     - gnome-software
     - octopi
-    - pamac-all
-    - pamac-aur
     - snapd
 - name: "Password Managers"
   description: "Securely Store & Manage Passwords"
