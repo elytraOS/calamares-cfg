@@ -136,7 +136,6 @@
     - ttf-hactor
     - ttf-ibm-plex
     - ttf-jetbrains-mono
-    - ttf-meslo-nerd-font-powerlevel10k
     - ttf-monofur
     - ttf-ms-fonts
     - ttf-nerd-fonts-symbols
@@ -178,8 +177,8 @@
   packages:
     - ifuse
     - shotwell
-- name: "Office Desk"
-  description: "LibreOffice & M$-Office"
+- name: "Office Suite"
+  description: "LibreOffice Fresh"
   critical: false
   hidden: false
   selected: false
@@ -188,7 +187,6 @@
     - libreoffice-fresh
     - libreoffice-fresh-$LOCALE
     - hunspell-$LOCALE
-    - ms-office-online
 - name: "Package Management"
   description: "Additional Package Managers"
   critical: false
@@ -258,9 +256,7 @@
     - adapta-gtk-theme
     - arc-gtk-theme
     - arc-icon-theme
-    - arcolinux-arc-kde
-    - arcolinux-arc-themes-git
-    - arcolinux-kvantum-theme-arc-git
+    - ayu-theme
     - faba-icon-theme-git
     - faba-mono-icons-git
     - halo-icons-git
@@ -327,13 +323,13 @@
     - makemkv
     - mediainfo-gui
     - mkvtoolnix-gui
-    - obs-studio
+    - obs-studio-tytan652
     - openshot
     - pitivi
     - plex-media-player
     - plex-media-server
     - simplescreenrecorder
-    - vlc
+    - vlc-luajit
     - youtube-dl
 - name: "VirtualBox + VMWare"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
