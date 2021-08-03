@@ -250,7 +250,6 @@
   expanded: false
   packages:
     - conky-lua-archers
-    - conky-collection-plasma
     - variety
     - xscreensaver
     - adapta-gtk-theme
