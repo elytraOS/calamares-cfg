@@ -132,7 +132,7 @@ QListView {
 
 QListView::item:alternate {
 	color: #58B2D7;
-	color: black;
+	color: white;
 }
 
 QListView::item:!alternate:selected:active {
