@@ -57,6 +57,7 @@ Presentation
 
     }
 
+
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
@@ -71,7 +72,8 @@ Presentation
 
     }
 
-    Slide {
+
+   Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
         Image {
@@ -85,6 +87,7 @@ Presentation
 
     }
     
+
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
@@ -98,11 +101,13 @@ Presentation
         }
 
     }
+
+
     Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
         Image {
-            id: background5
+            id: background6
             source: "slide6.png"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
@@ -111,11 +116,12 @@ Presentation
         }
 
     }
-    Slide {
+
+   Slide {
         anchors.fill: parent
         anchors.verticalCenterOffset: 0
         Image {
-            id: background5
+            id: background7
             source: "slide7.png"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
