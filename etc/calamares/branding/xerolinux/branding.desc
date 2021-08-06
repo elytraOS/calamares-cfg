@@ -76,7 +76,7 @@ strings:
     productName:         XeroLinux
     shortProductName:    XeroLinux
     version:             2021.08
-    shortVersion:        2021.08.08
+    shortVersion:        2021.08.12
     versionedName:       XeroLinux
     shortVersionedName:  XeroLinux
     bootloaderEntryName: XeroLinux
