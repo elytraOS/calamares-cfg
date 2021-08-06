@@ -146,6 +146,9 @@
   selected: false
   expanded: false
   packages:
+    - gamehub-bin
+    - heroic-games-launcher-git
+    - itch
     - lutris
     - minecraft-launcher
     - playonlinux

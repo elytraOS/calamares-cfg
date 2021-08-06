@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 10000
+        interval: 6000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -91,6 +91,32 @@ Presentation
         Image {
             id: background5
             source: "slide5.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background5
+            source: "slide6.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+    Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background5
+            source: "slide7.png"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
