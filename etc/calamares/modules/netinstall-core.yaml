@@ -1,5 +1,5 @@
 - name: "Stock Arch Kernel"
-  description: "Always selected (Required!)"
+  description: "Newer version than ISO"
   critical: false
   hidden: false
   selected: true
@@ -8,7 +8,7 @@
     - linux
     - linux-headers
 - name: "Processor U-Code"
-  description: "Expand & Select Correct CPU Microcode"
+  description: "Select Your CPU's Microcode"
   critical: true
   hidden: false
   selected: false
@@ -84,7 +84,7 @@
     - nvidia-settings
     - nvidia-utils
     - nvidia-dkms
-- name: "Nvidia-lts GPU Drivers"
+- name: "nVidia-lts GPU Drivers"
   description: "If Linux-LTS Kernel Selected"
   critical: false
   hidden: false
@@ -110,7 +110,7 @@
   expanded: false
   packages:
     - xf86-video-intel
-- name: "Nvidia Tools"
+- name: "nVidia Tools"
   description: "Expand & Select Only What You Need"
   critical: false
   hidden: false

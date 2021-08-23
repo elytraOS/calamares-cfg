@@ -67,6 +67,7 @@
     - nextcloud-client
     - tor-browser
     - webapp-manager
+    - xtreme-download
 - name: "BTRFS Tools"
   description: "If you want to use BTRFS"
   critical: false
@@ -116,7 +117,7 @@
     - gparted
     - rpi-imager
     - ventoy-bin
-    - woeusb
+    - woeusb-gui
 - name: "Extra Fonts"
   description: "Handpicked Fonts"
   critical: false
@@ -151,6 +152,7 @@
     - itch
     - lutris
     - minecraft-launcher
+    - minigalaxy
     - playonlinux
     - proton-community-updater
     - steam
@@ -235,8 +237,11 @@
   expanded: false
   packages:
     - discord
+    - betterdiscord-installer
     - element-desktop
+    - google-chat-linux-bin
     - google-messages
+    - neochat
     - pidgin
     - skypeforlinux-stable-bin
     - slack-desktop
@@ -293,7 +298,6 @@
   expanded: false
   packages:
     - appimagelauncher
-    - arcolinux-reflector-simple-git
     - auto-cpufreq
     - bpytop
     - caffeine-ng
@@ -303,6 +307,7 @@
     - mcomix
     - openrgb
     - putty
+    - s-tui
     - sigil
     - solaar
     - system76-power
@@ -318,6 +323,7 @@
   expanded: false
   packages:
     - filebot
+    - freetube-bin
     - guvcview
     - handbrake
     - hypnotix
@@ -332,7 +338,7 @@
     - plex-media-server
     - simplescreenrecorder
     - vlc-luajit
-    - youtube-dl
+    - youtube-dl-gui
 - name: "VirtualBox + VMWare"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
