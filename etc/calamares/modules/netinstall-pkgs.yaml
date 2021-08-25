@@ -69,13 +69,16 @@
     - webapp-manager
     - xtreme-download
 - name: "BTRFS Tools"
-  description: "If you want to use BTRFS"
+  description: "For Advanced BTRFS users."
   critical: false
   hidden: false
   selected: false
   expanded: false
   packages:
     - grub-btrfs
+    - snapper
+    - snap-pac
+    - snap-sync
     - timeshift-autosnap
 - name: "Dev Studio"
   description: "Some Dev Tools"
