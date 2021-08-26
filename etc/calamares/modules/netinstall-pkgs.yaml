@@ -5,6 +5,7 @@
   selected: false
   expanded: false
   packages:
+    - airdroid-nativefier
     - android-tools
     - android-file-transfer
     - android-sdk-platform-tools
@@ -23,8 +24,6 @@
     - audacious
     - audacious-plugins
     - audacity
-    - clementine
-    - deadbeef
     - elisa
     - gmusicbrowser
     - kwave
@@ -64,7 +63,6 @@
     - freedownloadmanager
     - librewolf-bin
     - megasync-bin
-    - nextcloud-client
     - tor-browser
     - webapp-manager
     - xtreme-download
@@ -100,7 +98,6 @@
     - hugo
     - kdevelop
     - notepadqq
-    - pycharm-community-edition
     - simplenote-electron-bin
     - sublime-text-4
     - vim
@@ -154,6 +151,7 @@
     - heroic-games-launcher-git
     - itch
     - lutris
+    - mangohud
     - minecraft-launcher
     - minigalaxy
     - playonlinux
@@ -185,8 +183,8 @@
   packages:
     - ifuse
     - shotwell
-- name: "Office Suite"
-  description: "LibreOffice Fresh"
+- name: "LibreOffice"
+  description: "Fresh Version"
   critical: false
   hidden: false
   selected: false
@@ -226,7 +224,6 @@
   selected: false
   expanded: false
   packages:
-    - krdc
     - nomachine
     - realvnc-vnc-server
     - realvnc-vnc-viewer
@@ -305,9 +302,7 @@
     - bpytop
     - caffeine-ng
     - cpu-x
-    - grub-customizer
     - htop
-    - mcomix
     - openrgb
     - putty
     - s-tui
@@ -326,7 +321,6 @@
   expanded: false
   packages:
     - filebot
-    - freetube-bin
     - guvcview
     - handbrake
     - hypnotix
