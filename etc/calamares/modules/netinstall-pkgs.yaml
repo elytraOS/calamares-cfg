@@ -75,6 +75,7 @@
   packages:
     - grub-btrfs
     - snapper
+    - snapper-gui-git
     - snap-pac
     - snap-sync
     - timeshift-autosnap
