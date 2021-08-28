@@ -18,9 +18,9 @@ import org.kde.kirigami 2.7 as Kirigami
 Item {
     readonly property color backgroundColor: Kirigami.Theme.backgroundColor //"#F5F5F5"
     readonly property color backgroundDarkerColor: Kirigami.Theme.alternateBackgroundColor //"#d3d3d3"
-    readonly property color backgroundLighterColor: "#282a36"
-    readonly property color highlightColor: Kirigami.Theme.backgroundColor //"#F5F5F5"
-    readonly property color textColor: "#a8aab4"
+    readonly property color backgroundLighterColor: "#ffffff"
+    readonly property color highlightColor: Kirigami.Theme.highlightColor //"#3498DB"
+    readonly property color textColor: Kirigami.Theme.textColor
     readonly property color highlightedTextColor: Kirigami.Theme.highlightedTextColor
 
     width: parent.width
@@ -40,16 +40,15 @@ Item {
             y: 40
 
             Rectangle {
-                width: 260
-                height: 110
-                color: "#1b1b1b"
+                width: 250
+                height: 140
+                color: backgroundDarkerColor
                 Text {
                     anchors.top: parent.top
-                    width: 260
+                    width: 240
                     wrapMode: Text.WordWrap
-                    color: "#818181"
                     text: qsTr("<h1>Languages</h1> </br>
-                    The system locale setting affects some command line user interface elements. The current setting is <strong>%1</strong>.").arg(config.currentLanguageCode)
+                    The system locale setting affects the language and character set for some command line user interface elements. The current setting is <strong>%1</strong>.").arg(config.currentLanguageCode)
                     font.pointSize: 10
                 }
             }
@@ -63,7 +62,6 @@ Item {
                     anchors.fill: parent
                     contentHeight: 800
                     ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
-                    ScrollBar.vertical.policy: ScrollBar.AlwaysOff
 
                     ListView {
                         id: list1
@@ -114,14 +112,13 @@ Item {
             y: 40
 
             Rectangle {
-                width: 260
-                height: 110
-                color: "#1b1b1b"
+                width: 250
+                height: 140
+                color: backgroundDarkerColor
                 Text {
                     anchors.top: parent.top
-                    width: 260
+                    width: 240
                     wrapMode: Text.WordWrap
-                    color: "#818181"
                     text: qsTr("<h1>Locales</h1> </br>
                     The system locale setting affects the numbers and dates format. The current setting is <strong>%1</strong>.").arg(config.currentLCCode)
                     font.pointSize: 10
@@ -137,7 +134,6 @@ Item {
                     anchors.fill: parent
                     contentHeight: 800
                     ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
-                    ScrollBar.vertical.policy: ScrollBar.AlwaysOff
 
                     ListView {
                         id: list2

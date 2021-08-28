@@ -131,6 +131,20 @@ Presentation
 
     }
 
+   Slide {
+        anchors.fill: parent
+        anchors.verticalCenterOffset: 0
+        Image {
+            id: background8
+            source: "slide8.png"
+            width: parent.width; height: parent.height
+            verticalAlignment: Image.AlignTop
+            fillMode: Image.Stretch
+            anchors.fill: parent
+        }
+
+    }
+
     function onActivate() {
           console.log("QML Component (default slideshow) activated");
           presentation.currentSlide = 0;
