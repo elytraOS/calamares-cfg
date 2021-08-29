@@ -32,6 +32,7 @@ Item {
             id: column
             x: 130
             y: 40
+            anchors.centerIn: parent
 
 
             Rectangle {
@@ -89,8 +90,8 @@ Item {
 
         ToolButton {
             id: toolButton
-            x: 19
-            y: 29
+            x: 72
+            y: 320
             width: 105
             height: 48
             text: qsTr("Back")
