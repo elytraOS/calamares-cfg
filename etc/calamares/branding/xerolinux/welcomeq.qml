@@ -42,8 +42,8 @@ Page
             // .. otherwise the path is interpreted relative to the "call site", which
             // .. might be the QRC file.
             source: "file:/" + Branding.imagePath(Branding.ProductWelcome)
-            sourceSize.width: 1280
-            sourceSize.height: 720
+            sourceSize.width: 750
+            sourceSize.height: 422
             fillMode: Image.PreserveAspectFit
         }
 
