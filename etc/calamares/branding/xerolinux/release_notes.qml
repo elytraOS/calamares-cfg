@@ -23,7 +23,7 @@ Rectangle {
     Flickable {
         id: flick
         anchors.fill: parent
-        contentHeight: 1250
+        contentHeight: 1150
 
         ScrollBar.vertical: ScrollBar {
             id: fscrollbar
@@ -45,7 +45,7 @@ Rectangle {
             text: qsTr("<center><h1>%1 Release Notes</h1></center>
             <p>This release has undergone a lot of changes. I worked hard on it.</p>
 
-            <p>See below a summary of the changes. Keep in m,ind that I am still learning as I go.</p>
+            <p>See below a summary of the changes. Keep in mind that I am still learning as I go.</p>
 
             <p>I rely on you, the user to report any bugs you might encounter, and for ideas I can implement in next release.</p>
 
@@ -59,22 +59,24 @@ Rectangle {
 
             <p>Oh, and I also included a new System Config Tool, that will start once OS is installed, which you can use to Set up Snapper, Grub-BTRFS as well as do some system maintenance. Once you remove from Autostart you will still be able to access from the context menu if you wish or alias mentioned in the app itself.</p>
 
-            <p>But the biggest change for this release is the fact that I added Snapper support for all you BTRFS users out there.<br/></p>
+            <p>But the biggest change for this release is the fact that I added Snapper support for all you BTRFS users out there.</p>
 
             <p>Finally, a heck of a lot of under-the-hood work was done. I am still learning, but that's beauty of Linux isn't it?</p>
 
+            <center><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p></center>
+
             <p><b>- Some Aliases to know :</b></p>
             <ul>
-                <li>update : Most commonly used one. It will update all <i>REPO</i> packages.</li>
-                <li>upall : This one is same as above but will include <i>AUR</i> packages.</li>
-                <li>install : It’s to install packages from repos. Replaces <code>pacman -S</code></li>
-                <li>pget : this one is to build packages from the <i>AUR</i>.</li>
-                <li>smb : Runs my custom <i>SAMBA</i> script to get it running in seconds..</li>
-                <li>ngbt : This will allow you to edit the “Grub-BtrFS” config file</li>
-                <li>fpup : This one lets you update any “Flatpaks” installed.</li>
-                <li>grubup : This one will update “Grub” To apply changes..</li>
-                <li>sr/ssn : first one reboots your system, whilst the other is shutdown...</li>
-                <li>qemu-vm : This will quickly grab and install KVM for you..</li>
+                <li><b>update :</b> Most commonly used one. It will update all <i>REPO</i> packages.</li>
+                <li><b>upall :</b> This one is same as above but will include <i>AUR</i> packages.</li>
+                <li><b>install :</b> It’s to install packages from repos. Replaces <code>pacman -S</code></li>
+                <li><b>pget :</b> this one is to build packages from the <i>AUR</i>.</li>
+                <li><b>smb :</b> Runs my custom <i>SAMBA</i> script to get it running in seconds..</li>
+                <li><b>ngbt :</b> This will allow you to edit the “Grub-BtrFS” config file</li>
+                <li><b>fpup :</b> This one lets you update any “Flatpaks” installed.</li>
+                <li><b>grubup :</b> This one will update “Grub” To apply changes..</li>
+                <li><b>sr/ssn :</b> first one reboots your system, whilst the other is shutdown...</li>
+                <li><b>qemu-vm :</b> This will quickly grab and install KVM for you..</li>
             </ul>
             <p><center><h1>~ Enjoy XeroLinux ~</h1></center></p>").arg(Branding.string(Branding.VersionedName))
 
