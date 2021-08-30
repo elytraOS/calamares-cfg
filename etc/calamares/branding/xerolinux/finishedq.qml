@@ -47,7 +47,7 @@ Page {
         }
 
         Image {
-            source: "xerolinux.png"
+            source: "logo.png"
             anchors.top: header.bottom
             anchors.topMargin: 80
             anchors.horizontalCenter: parent.horizontalCenter
