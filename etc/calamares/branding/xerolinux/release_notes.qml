@@ -23,7 +23,7 @@ Rectangle {
     Flickable {
         id: flick
         anchors.fill: parent
-        contentHeight: 1150
+        contentHeight: 1050
 
         ScrollBar.vertical: ScrollBar {
             id: fscrollbar
@@ -57,7 +57,7 @@ Rectangle {
 
             <p>As you might have noticed, system has had a facelift, new rice, the Dracula theme with a custom Wallpaper.</p>
 
-            <p>Oh, and I also included a new System Config Tool, that will start once OS is installed, which you can use to Set up Snapper, Grub-BTRFS as well as do some system maintenance. Once you remove from Autostart you will still be able to access from the context menu if you wish or alias mentioned in the app itself.</p>
+            <p>Oh, and I also included a new System Config Tool, that will start once OS is installed, which you can use to Set up Snapper, Grub-BTRFS as well as do some system maintenance. Once you remove from Autostart you will still be able to access via alias mentioned in the app itself or by pinning it to the Dock once launched.</p>
 
             <p>But the biggest change for this release is the fact that I added Snapper support for all you BTRFS users out there.</p>
 
