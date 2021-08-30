@@ -23,7 +23,7 @@ Rectangle {
     Flickable {
         id: flick
         anchors.fill: parent
-        contentHeight: 1150
+        contentHeight: 1250
 
         ScrollBar.vertical: ScrollBar {
             id: fscrollbar
@@ -36,7 +36,7 @@ Rectangle {
             x: 130
             y: 8
             width: 640
-            font.pointSize: 14
+            font.pointSize: 12
             textFormat: Text.RichText
             antialiasing: true
             activeFocusOnPress: false
@@ -57,17 +57,13 @@ Rectangle {
 
             <p>As you might have noticed, system has had a facelift, new rice, the Dracula theme with a custom Wallpaper.</p>
 
-            <p>But the biggest change for this release is the fact that I added Snapper support for all you BTRFS users out there.</p>
+            <p>Oh, and I also included a new System Config Tool, that will start once OS is installed, which you can use to Set up Snapper, Grub-BTRFS as well as do some system maintenance. Once you remove from Autostart you will still be able to access from the context menu if you wish or alias mentioned in the app itself.</p>
 
-            <p>Yes, you read that right, all required Subvolumes will be created, but you will be required to run a script once OS is installed.</p>
+            <p>But the biggest change for this release is the fact that I added Snapper support for all you BTRFS users out there.<br/></p>
 
-            <p>As soon as you land on Desktop, to finalize Snapper setup, just run the following command in Terminal <code>snapcfg</code>.</p>
+            <p>Finally, a heck of a lot of under-the-hood work was done. I am still learning, but that's beauty of Linux isn't it?</p>
 
-            <p>And in case you also chose Grub-BTRFS, run this command to enable it, <code>grubsnap</code></p>
-
-            <p>Finally, a heck of a lot of un-the-hood work was done. I am still learning, but that's beauty of Linux isn't it?</p>
-
-           <p><b>- Some Aliases to know :</b></p>
+            <p><b>- Some Aliases to know :</b></p>
             <ul>
                 <li>update : Most commonly used one. It will update all <i>REPO</i> packages.</li>
                 <li>upall : This one is same as above but will include <i>AUR</i> packages.</li>
