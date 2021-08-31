@@ -49,10 +49,10 @@ Page {
         Image {
             source: "logo.png"
             anchors.top: header.bottom
-            anchors.topMargin: 80
+            anchors.topMargin: 100
             anchors.horizontalCenter: parent.horizontalCenter
-            width: 128
-            height: 128
+            width: 256
+            height: 256
             mipmap: true
         }
     }
