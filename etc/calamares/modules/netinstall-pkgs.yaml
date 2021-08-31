@@ -266,6 +266,7 @@
     - arc-gtk-theme
     - arc-icon-theme
     - ayu-theme
+    - beautyline
     - faba-icon-theme-git
     - faba-mono-icons-git
     - halo-icons-git
@@ -280,6 +281,13 @@
     - paper-icon-theme
     - papirus-icon-theme
     - surfn-mint-y-icons-git
+    - sweet-gtk-theme
+    - sweet-gtk-theme-dark
+    - sweet-kde-git
+    - aurorae-theme-sweet
+    - kvantum-theme-sweet-git
+    - plasma-theme-sweet
+    - sddm-theme-sweet
     - zafiro-icon-theme
 - name: "Torrent Clients"
   description: "Torrent Management Tools"
