@@ -29,7 +29,7 @@ Page {
 
     header: Kirigami.Heading {
         width: parent.width
-        height: 100
+        height: 80
         id: header
         Layout.fillWidth: true
         horizontalAlignment: Qt.AlignHCenter
@@ -41,7 +41,7 @@ Page {
             anchors.top: header.bottom
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            font.pointSize: 12
+            font.pointSize: 14
             text: qsTr("%1 has been installed on your computer.<br/>
             You may now restart into your new system, or continue using the Live environment.").arg(Branding.string(Branding.ProductName))
         }
@@ -49,10 +49,10 @@ Page {
         Image {
             source: "logo.png"
             anchors.top: header.bottom
-            anchors.topMargin: 100
+            anchors.topMargin: 80
             anchors.horizontalCenter: parent.horizontalCenter
-            width: 256
-            height: 256
+            width: 192
+            height: 192
             mipmap: true
         }
     }
@@ -85,7 +85,7 @@ Page {
         Layout.fillHeight: true
         Layout.fillWidth: true
         anchors.bottom: parent.bottom
-        anchors.bottomMargin : 100
+        anchors.bottomMargin : 128
         anchors.horizontalCenter: parent.horizontalCenter
 
         Text {
