@@ -218,18 +218,6 @@
     - realvnc-vnc-viewer
     - remina
     - teamviewer
-- name: "Snapper Tools"
-  description: "For Advanced BTRFS users."
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - grub-btrfs
-    - rollback-git
-    - snapper
-    - snap-pac
-    - snap-sync
 - name: "Social-Media"
   description: "Various Video & Chat Clients"
   critical: false
@@ -288,16 +276,6 @@
     - plasma-theme-sweet
     - sddm-theme-sweet
     - zafiro-icon-theme
-- name: "TimeShift"
-  description: "Select all for BTRFS or just timeshift if EXT4"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - grub-btrfs
-    - timeshift
-    - timeshift-autosnap
 - name: "Torrent Clients"
   description: "Torrent Management Tools"
   critical: false
