@@ -274,6 +274,14 @@
           - plasma-theme-sweet
           - sddm-theme-sweet
           - beautyline
+      - name: "Qogir KDE"
+        description: "Qogir KDE Theme Complete"
+        selected: false
+        packages:
+          - kvantum-theme-qogir-git
+          - qogir-gtk-theme
+          - qogir-icon-theme
+          - qogir-kde-theme
       - name: "Nordic KDE"
         description: "Nordic KDE Theme Complete"
         selected: false
