@@ -240,7 +240,7 @@
     - whatsapp-nativefier
     - zoom
 - name: "Themes & Tools"
-  description: "Theme Tools and Complete THeme Sets."
+  description: "Desktop Tools and Complete Theme Sets."
   hidden: false
   selected: false
   critical: false
@@ -274,13 +274,21 @@
           - plasma-theme-sweet
           - sddm-theme-sweet
           - beautyline
-      - name: "Numix KDE"
-        description: "Numix KDE Theme Complete"
+      - name: "Nordic KDE"
+        description: "Nordic KDE Theme Complete"
         selected: false
         packages:
-          - numix-circle-arc-icons-git
-          - numix-circle-icon-theme-git
-          - numix-gtk-theme-git
+          - kvantum-theme-nordic-git
+          - nordic-bluish-accent-theme
+          - nordic-bluish-theme-git
+          - nordic-darker-standard-buttons-theme
+          - nordic-darker-theme
+          - nordic-darker-theme-git
+          - nordic-kde-git
+          - nordic-polar-theme-git
+          - nordic-standard-buttons-theme
+          - nordic-theme
+          - sddm-nordic-theme-git
 - name: "Torrent Clients"
   description: "Torrent Management Tools"
   critical: false
