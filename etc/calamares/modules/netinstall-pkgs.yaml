@@ -240,42 +240,47 @@
     - whatsapp-nativefier
     - zoom
 - name: "Themes & Tools"
-  description: "Change the look & feel of XeroLinux"
-  critical: false
+  description: "Theme Tools and Complete THeme Sets."
   hidden: false
   selected: false
-  expanded: false
-  packages:
-    - conky-lua-archers
-    - variety
-    - xscreensaver
-    - adapta-gtk-theme
-    - arc-gtk-theme
-    - arc-icon-theme
-    - ayu-theme
-    - beautyline
-    - faba-icon-theme-git
-    - faba-mono-icons-git
-    - halo-icons-git
-    - materia-gtk-theme
-    - materia-kde
-    - moka-icon-theme-git
-    - numix-circle-arc-icons-git
-    - numix-circle-icon-theme-git
-    - numix-gtk-theme-git
-    - openbox-themes-pambudi-git
-    - oxy-neon
-    - paper-icon-theme
-    - papirus-icon-theme
-    - surfn-mint-y-icons-git
-    - sweet-gtk-theme
-    - sweet-gtk-theme-dark
-    - sweet-kde-git
-    - aurorae-theme-sweet
-    - kvantum-theme-sweet-git
-    - plasma-theme-sweet
-    - sddm-theme-sweet
-    - zafiro-icon-theme
+  critical: false
+  subgroups:
+      - name: "The Utilities"
+        description: "Basic system"
+        selected: false
+        packages:
+           - conky-lua-archers
+           - variety
+           - xscreensaver
+      - name: "Dracula"
+        description: "Dracula Theme Complete"
+        selected: false
+        packages:
+           - ant-dracula-gtk-theme
+           - ant-dracula-kde-theme-git
+           - ant-dracula-kvantum-theme-git
+           - dracula-gtk-theme
+           - dracula-xresources-git
+           - konsole-dracula-git
+      - name: "Sweet KDE"
+        description: "Sweet KDE Theme Complete"
+        selected: false
+        packages:
+          - sweet-gtk-theme
+          - sweet-gtk-theme-dark
+          - sweet-kde-git
+          - aurorae-theme-sweet
+          - kvantum-theme-sweet-git
+          - plasma-theme-sweet
+          - sddm-theme-sweet
+          - beautyline
+      - name: "Numix KDE"
+        description: "Numix KDE Theme Complete"
+        selected: false
+        packages:
+          - numix-circle-arc-icons-git
+          - numix-circle-icon-theme-git
+          - numix-gtk-theme-git
 - name: "Torrent Clients"
   description: "Torrent Management Tools"
   critical: false
