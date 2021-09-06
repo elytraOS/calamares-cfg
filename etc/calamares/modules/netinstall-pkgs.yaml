@@ -46,26 +46,6 @@
     - geekbench
     - gputest
     - phoronix-test-suite
-- name: "Browsers & Internet"
-  description: "Browsers, Sync & Cloud Tools"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - brave-bin
-    - chromium
-    - dropbox
-    - evolution
-    - filezilla
-    - firefox-adblock-plus
-    - firefox-i18n-$LOCALE
-    - freedownloadmanager
-    - librewolf-bin
-    - megasync-bin
-    - tor-browser
-    - webapp-manager
-    - xtreme-download
 - name: "Dev Studio"
   description: "Some Dev Tools"
   critical: false
@@ -230,8 +210,10 @@
           - freedownloadmanager
           - insync
           - insync-dolphin
+          - jdownloader2-latest
           - ktorrent
           - megasync-bin
+          - nitroshare
           - qbittorrent
           - transmission-gtk
           - xtreme-download
