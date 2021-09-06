@@ -40,6 +40,7 @@ Page {
         Text {
             anchors.top: header.bottom
             anchors.horizontalCenter: parent.horizontalCenter
+            color: "white"
             horizontalAlignment: Text.AlignHCenter
             font.pointSize: 14
             text: qsTr("%1 has been installed on your computer.<br/>
@@ -91,6 +92,7 @@ Page {
         Text {
             anchors.centerIn: parent
             anchors.top: parent.top
+            color: "white"
             horizontalAlignment: Text.AlignHCenter
             text: qsTr("<p>A full log of the install is available as installation.log in the home directory of the Live user.<br/>
             This log is copied to %1 of the target system.</p>").arg(configdestLog)
