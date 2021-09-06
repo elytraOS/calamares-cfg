@@ -148,3 +148,11 @@
   packages:
     - xf86-video-openchrome
     - xf86-video-vesa
+- name: "RTL Driver"
+  description: "Special RTL8821ce Driver"
+  critical: false
+  hidden: true
+  selected: true
+  expanded: false
+  packages:
+    - rtl8821ce-dkms-git
