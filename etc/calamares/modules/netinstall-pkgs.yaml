@@ -178,7 +178,7 @@
            - mailspring
            - thunderbird
            - trojita
-      - name: "Socials"
+      - name: "Social Clients"
         description: "Social Video & Chat Clients"
         selected: false
         packages:
