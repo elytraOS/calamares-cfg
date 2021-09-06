@@ -151,8 +151,8 @@
 - name: "RTL Driver"
   description: "Special RTL8821ce Driver"
   critical: false
-  hidden: true
-  selected: true
+  hidden: false
+  selected: false
   expanded: false
   packages:
     - rtl8821ce-dkms-git
