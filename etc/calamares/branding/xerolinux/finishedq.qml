@@ -33,16 +33,16 @@ Page {
         id: header
         Layout.fillWidth: true
         horizontalAlignment: Qt.AlignHCenter
-        color: Kirigami.Theme.textColor
+        color: "white"
         level: 1
         text: qsTr("Installation Completed")
 
         Text {
             anchors.top: header.bottom
             anchors.horizontalCenter: parent.horizontalCenter
-            color: "white"
             horizontalAlignment: Text.AlignHCenter
             font.pointSize: 14
+            color: "white"
             text: qsTr("%1 has been installed on your computer.<br/>
             You may now restart into your new system, or continue using the Live environment.").arg(Branding.string(Branding.ProductName))
         }
@@ -92,8 +92,8 @@ Page {
         Text {
             anchors.centerIn: parent
             anchors.top: parent.top
-            color: "white"
             horizontalAlignment: Text.AlignHCenter
+            color: "white"
             text: qsTr("<p>A full log of the install is available as installation.log in the home directory of the Live user.<br/>
             This log is copied to %1 of the target system.</p>").arg(configdestLog)
         }
