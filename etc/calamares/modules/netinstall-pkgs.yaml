@@ -163,6 +163,78 @@
     - imagemagick
     - inkscape
     - krita
+- name: "Internet"
+  description: "Internet & Social Tools"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "The Browsers"
+        description: "Few Desktop Tools"
+        selected: false
+        packages:
+           - brave-bin
+           - chromium
+           - epiphany
+           - falkon
+           - firefox-i18n-$LOCALE
+           - firefox-developer-edition
+           - firefox-adblock-plus
+           - librewolf-bin
+           - netsurf
+           - opera
+           - otter-browser
+           - seamonkey
+           - tor-browser
+           - webapp-manager
+      - name: "E-mail Clients"
+        description: "Various Email Clients"
+        selected: false
+        packages:
+           - claws-mail
+           - evolution
+           - geary
+           - kmail
+           - mailspring
+           - thunderbird
+           - trojita
+      - name: "Socials"
+        description: "Social Video & Chat Clients"
+        selected: false
+        packages:
+          - discord
+          - betterdiscord-installer
+          - element-desktop
+          - fractal
+          - google-chat-linux-bin
+          - google-messages
+          - mumble
+          - neochat
+          - pidgin
+          - signal-desktop
+          - skypeforlinux-stable-bin
+          - slack-desktop
+          - teams
+          - telegram-desktop
+          - tweetdeck-desktop
+          - whatsapp-nativefier
+          - wire-desktop
+          - zoom
+      - name: "Download Managers"
+        description: "Various Download & Torrent Managers"
+        selected: false
+        packages:
+          - deluge
+          - dropbox
+          - filezilla
+          - freedownloadmanager
+          - insync
+          - insync-dolphin
+          - ktorrent
+          - megasync-bin
+          - qbittorrent
+          - transmission-gtk
+          - xtreme-download
 - name: "iOS Device Support"
   description: "If you own an iOS Device"
   critical: false
@@ -218,27 +290,6 @@
     - realvnc-vnc-viewer
     - remina
     - teamviewer
-- name: "Social-Media"
-  description: "Various Video & Chat Clients"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - discord
-    - betterdiscord-installer
-    - element-desktop
-    - google-chat-linux-bin
-    - google-messages
-    - neochat
-    - pidgin
-    - skypeforlinux-stable-bin
-    - slack-desktop
-    - teams
-    - telegram-desktop
-    - tweetdeck-desktop
-    - whatsapp-nativefier
-    - zoom
 - name: "Themes & Tools"
   description: "Desktop Tools and Complete Theme Sets."
   hidden: false
@@ -246,13 +297,13 @@
   critical: false
   subgroups:
       - name: "The Utilities"
-        description: "Basic system"
+        description: "Few Desktop Tools"
         selected: false
         packages:
            - conky-lua-archers
            - variety
            - xscreensaver
-      - name: "Dracula"
+      - name: "Dracula Theme"
         description: "Dracula Theme Complete"
         selected: false
         packages:
@@ -262,8 +313,8 @@
            - dracula-gtk-theme
            - dracula-xresources-git
            - konsole-dracula-git
-      - name: "Sweet KDE"
-        description: "Sweet KDE Theme Complete"
+      - name: "Sweet Theme"
+        description: "Sweet Theme Complete"
         selected: false
         packages:
           - sweet-gtk-theme
@@ -274,16 +325,16 @@
           - plasma-theme-sweet
           - sddm-theme-sweet
           - beautyline
-      - name: "Qogir KDE"
-        description: "Qogir KDE Theme Complete"
+      - name: "Qogir Theme"
+        description: "Qogir Theme Complete"
         selected: false
         packages:
           - kvantum-theme-qogir-git
           - qogir-gtk-theme
           - qogir-icon-theme
           - qogir-kde-theme
-      - name: "Nordic KDE"
-        description: "Nordic KDE Theme Complete"
+      - name: "Nordic Theme"
+        description: "Nordic Theme Complete"
         selected: false
         packages:
           - kvantum-theme-nordic-git
@@ -297,17 +348,6 @@
           - nordic-standard-buttons-theme
           - nordic-theme
           - sddm-nordic-theme-git
-- name: "Torrent Clients"
-  description: "Torrent Management Tools"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - deluge
-    - ktorrent
-    - qbittorrent
-    - transmission-gtk
 - name: "Utilities"
   description: "Currated List of Utilities"
   critical: false
