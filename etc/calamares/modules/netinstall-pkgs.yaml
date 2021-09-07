@@ -28,7 +28,7 @@
   critical: false
   subgroups:
       - name: "Audio Players"
-        description: "Cherrpicked Audio Players"
+        description: "Cherrypicked Audio Players"
         selected: false
         packages:
            - amarok
@@ -259,7 +259,7 @@
     - libreoffice-fresh
     - libreoffice-fresh-$LOCALE
     - hunspell-$LOCALE
-- name: "Package Management"
+- name: "Package Managers"
   description: "Additional Package Managers"
   critical: false
   hidden: false
@@ -420,7 +420,7 @@
           - guvcview
           - mediainfo-gui
           - youtube-dl-gui
-- name: "VirtualBox + VMWare"
+- name: "Virtualization"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
   hidden: false
