@@ -1,17 +1,26 @@
-- name: "Android Tools"
-  description: "If you own an Android Device"
-  critical: false
+- name: "Android & iOS Tools"
+  description: "Adds support for Android & iOS"
   hidden: false
   selected: false
-  expanded: false
-  packages:
-    - airdroid-nativefier
-    - android-tools
-    - android-file-transfer
-    - android-sdk-platform-tools
-    - droidcam
-    - qtscrcpy
-    - scrcpy
+  critical: false
+  subgroups:
+      - name: "Android Tools"
+        description: "Some Useful Android Tools"
+        selected: false
+        packages:
+           - airdroid-nativefier
+           - android-tools
+           - android-file-transfer
+           - android-sdk-platform-tools
+           - droidcam
+           - qtscrcpy
+           - scrcpy
+      - name: "iOS Support Tools"
+        description: "Tools For iOS Devices"
+        selected: false
+        packages:
+           - ifuse
+           - shotwell
 - name: "Audio Tools"
   description: "Best in Class Audio Tools"
   critical: false
@@ -25,6 +34,7 @@
     - audacious-plugins
     - audacity
     - elisa
+    - easytag
     - gmusicbrowser
     - kwave
     - lmms
@@ -143,6 +153,7 @@
     - imagemagick
     - inkscape
     - krita
+    - wings3d
 - name: "Internet"
   description: "Internet & Social Tools"
   hidden: false
@@ -217,15 +228,6 @@
           - qbittorrent
           - transmission-gtk
           - xtreme-download
-- name: "iOS Device Support"
-  description: "If you own an iOS Device"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - ifuse
-    - shotwell
 - name: "LibreOffice"
   description: "Fresh Version"
   critical: false
@@ -354,29 +356,49 @@
     - warpinator
     - wireshark-qt
     - wttr
-- name: "Video Studio"
-  description: "Cherrypicked Video Apps"
-  critical: false
+- name: "Video Tools"
+  description: "Video Players, Editors, Converters & Other"
   hidden: false
   selected: false
-  expanded: false
-  packages:
-    - filebot
-    - guvcview
-    - handbrake
-    - hypnotix
-    - kdenlive
-    - makemkv
-    - mediainfo-gui
-    - mkvtoolnix-gui
-    - obs-studio-tytan652
-    - openshot
-    - pitivi
-    - plex-media-player
-    - plex-media-server
-    - simplescreenrecorder
-    - vlc-luajit
-    - youtube-dl-gui
+  critical: false
+  subgroups:
+      - name: "Video Players"
+        description: "Selection of Video Players"
+        selected: false
+        packages:
+           - baka-mplayer
+           - hypnotix
+           - plex-media-player
+           - plex-media-server
+           - stremio
+           - vlc-luajit
+      - name: "Video Editors"
+        description: "Selection of Video Capture & Editors"
+        selected: false
+        packages:
+           - blender
+           - kdenlive
+           - obs-studio-tytan652
+           - openshot
+           - pitivi
+           - shotcut
+           - simplescreenrecorder
+      - name: "Video Converters"
+        description: "Selection of Video Converters"
+        selected: false
+        packages:
+          - handbrake
+          - makemkv
+          - mkvtoolnix-gui
+          - mytiq
+      - name: "Other Video Tools"
+        description: "Various other Video Tools"
+        selected: false
+        packages:
+          - filebot
+          - guvcview
+          - mediainfo-gui
+          - youtube-dl-gui
 - name: "VirtualBox + VMWare"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
