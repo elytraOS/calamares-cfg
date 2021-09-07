@@ -21,30 +21,51 @@
         packages:
            - ifuse
            - shotwell
-- name: "Audio Tools"
-  description: "Best in Class Audio Tools"
-  critical: false
+- name: "Audio & Music Tools"
+  description: "Audio Players, Converters & Editors"
   hidden: false
   selected: false
-  expanded: false
-  packages:
-    - amarok
-    - ardour
-    - audacious
-    - audacious-plugins
-    - audacity
-    - elisa
-    - easytag
-    - gmusicbrowser
-    - kwave
-    - lmms
-    - radiotray
-    - rhythmbox
-    - sayonara-player
-    - soundconverter
-    - spotify-adblock-git
-    - tauon-music-box
-    - viper4linux-gui
+  critical: false
+  subgroups:
+      - name: "Audio Players"
+        description: "Cherrpicked Audio Players"
+        selected: false
+        packages:
+           - amarok
+           - audacious
+           - audacious-plugins
+           - elisa
+           - gmusicbrowser
+           - radiotray
+           - sayonara-player
+           - spotify-adblock-git
+           - tauon-music-box
+      - name: "Audio Editors"
+        description: "Selection of Audio Editors"
+        selected: false
+        packages:
+           - ardour
+           - audacity
+           - glada
+           - kwave
+           - lmms
+      - name: "Audio Converters"
+        description: "Few good Audio Converters"
+        selected: false
+        packages:
+           - ciano
+           - gnac
+           - soundconverter
+           - trasmageddon
+      - name: "Other Audio Tools"
+        description: "Various Other Audio Tools"
+        selected: false
+        packages:
+           - easytag
+           - element
+           - picard
+           - rhythmbox
+           - viper4linux-gui
 - name: "Benchmarking Tools"
   description: "Test you Machine for Gaming"
   critical: false
