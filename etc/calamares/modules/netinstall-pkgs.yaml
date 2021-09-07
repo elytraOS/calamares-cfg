@@ -243,6 +243,7 @@
   selected: false
   expanded: false
   packages:
+    - aura
     - bauh
     - discover
     - flatpak
