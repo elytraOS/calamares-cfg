@@ -1,11 +1,11 @@
-- name: "XeroLinux System Config"
-  description: "Essential Requirement"
-  critical: false
-  hidden: true
-  selected: true
-  expanded: false
-  packages:
-    - sysconfig
+#- name: "XeroLinux System Config"
+#  description: "Essential Requirement"
+#  critical: false
+#  hidden: true
+#  selected: true
+#  expanded: false
+#  packages:
+#    - sysconfig
 - name: "Stock Arch Kernel"
   description: "Newer version than ISO"
   critical: false

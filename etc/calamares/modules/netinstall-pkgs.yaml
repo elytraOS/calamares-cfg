@@ -397,7 +397,6 @@
         description: "Selection of Video Capture & Editors"
         selected: false
         packages:
-           - blender
            - kdenlive
            - obs-studio-tytan652
            - openshot
