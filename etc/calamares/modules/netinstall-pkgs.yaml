@@ -56,7 +56,7 @@
            - ciano
            - gnac
            - soundconverter
-           - trasmageddon
+           - transmageddon
       - name: "Other Audio Tools"
         description: "Various Other Audio Tools"
         selected: false
@@ -171,7 +171,6 @@
     - digikam
     - flameshot    
     - gimp
-    - imagemagick
     - inkscape
     - krita
     - wings3d
@@ -410,7 +409,7 @@
           - handbrake
           - makemkv
           - mkvtoolnix-gui
-          - mytiq
+          - mystiq
       - name: "Other Video Tools"
         description: "Various other Video Tools"
         selected: false
@@ -430,7 +429,6 @@
     - vmware-workstation
     - virtualbox-ext-vnc
     - virtualbox-guest-iso
-    - virtualbox-guest-utils
     - virtualbox-host-dkms
     - virtualbox-host-modules-arch
 - name: "Wine All in One"
