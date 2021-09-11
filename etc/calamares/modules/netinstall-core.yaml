@@ -163,6 +163,7 @@
            - pipewire-jack
            - pipewire-jack-dropin
            - pipewire-media-session
+           - pipewire-pulse
            - pipewire-zeroconf
            - gst-plugin-pipewire
       - name: "Pulse Audio"
