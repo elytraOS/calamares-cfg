@@ -148,7 +148,7 @@
   packages:
     - xf86-video-openchrome
     - xf86-video-vesa
-- name: "AUdio Front-end"
+- name: "Audio Drivers"
   description: "Must Select One, else No-Audio"
   hidden: false
   selected: false
