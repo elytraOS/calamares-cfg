@@ -77,6 +77,17 @@
     - geekbench
     - gputest
     - phoronix-test-suite
+- name: "Bluetooth Support"
+  description: "To have Bluetooth"
+  critical: false
+  immutable: true
+  selected: true
+  expanded: false
+  packages:
+    - blueberry
+    - bluez
+    - bluez-libs
+    - bluez-utils
 - name: "Dev Studio"
   description: "Some Dev Tools"
   critical: false
