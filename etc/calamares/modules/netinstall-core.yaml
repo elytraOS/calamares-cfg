@@ -148,6 +148,37 @@
   packages:
     - xf86-video-openchrome
     - xf86-video-vesa
+- name: "AUdio Front-end"
+  description: "Must Select One, else No-Audio"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "PipeWire Audio"
+        description: "Install PipeWire Audio"
+        selected: false
+        packages:
+           - helvum
+           - pipewire
+           - pipewire-alsa
+           - pipewire-jack
+           - pipewire-jack-dropin
+           - pipewire-media-session
+           - pipewire-pulse
+           - pipewire-zeroconf
+           - wireplumber
+           - gst-plugin-pipewire
+      - name: "Pulse Audio"
+        description: "Install Pluse Audio"
+        selected: false
+        packages:
+           - pulseaudio
+           - pulseaudio-alsa
+           - pulseaudio-bluetooth
+           - pulseaudio-qt
+           - pulsemixer
+           - pavucontrol
+           - python-pulsectl
 - name: "RTL Driver"
   description: "Special RTL8821ce Driver"
   critical: false
