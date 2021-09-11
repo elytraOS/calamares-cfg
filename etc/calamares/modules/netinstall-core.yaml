@@ -158,15 +158,12 @@
         description: "Install PipeWire Audio"
         selected: false
         packages:
-           - helvum
            - pipewire
            - pipewire-alsa
            - pipewire-jack
            - pipewire-jack-dropin
            - pipewire-media-session
-           - pipewire-pulse
            - pipewire-zeroconf
-           - wireplumber
            - gst-plugin-pipewire
       - name: "Pulse Audio"
         description: "Install Pulse Audio"
