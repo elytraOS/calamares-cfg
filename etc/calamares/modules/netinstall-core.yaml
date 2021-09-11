@@ -169,7 +169,7 @@
            - wireplumber
            - gst-plugin-pipewire
       - name: "Pulse Audio"
-        description: "Install Pluse Audio"
+        description: "Install Pulse Audio"
         selected: false
         packages:
            - pulseaudio
