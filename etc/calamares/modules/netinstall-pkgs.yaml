@@ -306,8 +306,22 @@
     - realvnc-vnc-viewer
     - remina
     - teamviewer
+- name: "Terminal Emulators"
+  description: "Extra Terminal Emulators"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - alacritty
+    - alacritty-themes
+    - cool-retro-term
+    - cmatrix
+    - guake
+    - rxvt-unicode
+    - terminator
 - name: "Themes & Tools"
-  description: "Desktop Tools and Complete Theme Sets."
+  description: "Desktop Tools and Theme Sets."
   hidden: false
   selected: false
   critical: false
@@ -319,38 +333,38 @@
            - conky-lua-archers
            - variety
            - xscreensaver
+      - name: "Arc Theme"
+        description: "Innstall Arc Theme"
+        selected: false
+        packages:
+          - arc-blackest-theme-git
+          - arc-darkest-theme-git
+          - arc-firefox-theme-git
+          - arc-gtk-theme
+          - arc-icon-theme
+          - arc-kde
+          - vlc-arc-dark-git
       - name: "Dracula Theme"
-        description: "Dracula Theme Complete"
+        description: "Innstall Dracula Theme"
         selected: false
         packages:
            - ant-dracula-gtk-theme
            - ant-dracula-kde-theme-git
            - ant-dracula-kvantum-theme-git
+           - dracula-alacritty-git
+           - dracula-grub-theme-git
            - dracula-gtk-theme
            - dracula-xresources-git
            - konsole-dracula-git
-      - name: "Sweet Theme"
-        description: "Sweet Theme Complete"
+           - vim-dracula
+      - name: "Materia Theme"
+        description: "Innstall Materia Theme"
         selected: false
         packages:
-          - sweet-gtk-theme
-          - sweet-gtk-theme-dark
-          - sweet-kde-git
-          - aurorae-theme-sweet
-          - kvantum-theme-sweet-git
-          - plasma-theme-sweet
-          - sddm-theme-sweet
-          - beautyline
-      - name: "Qogir Theme"
-        description: "Qogir Theme Complete"
-        selected: false
-        packages:
-          - kvantum-theme-qogir-git
-          - qogir-gtk-theme
-          - qogir-icon-theme
-          - qogir-kde-theme
+          - materia-gtk-theme
+          - materia-kde
       - name: "Nordic Theme"
-        description: "Nordic Theme Complete"
+        description: "Innstall Nordic Theme"
         selected: false
         packages:
           - kvantum-theme-nordic-git
@@ -364,6 +378,26 @@
           - nordic-standard-buttons-theme
           - nordic-theme
           - sddm-nordic-theme-git
+      - name: "Qogir Theme"
+        description: "Innstall Qogir Theme"
+        selected: false
+        packages:
+          - kvantum-theme-qogir-git
+          - qogir-gtk-theme
+          - qogir-icon-theme
+          - qogir-kde-theme-git
+      - name: "Sweet Theme"
+        description: "Innstall Sweet Theme"
+        selected: false
+        packages:
+          - sweet-gtk-theme
+          - sweet-gtk-theme-dark
+          - sweet-kde-git
+          - aurorae-theme-sweet
+          - kvantum-theme-sweet-git
+          - plasma-theme-sweet
+          - sddm-theme-sweet
+          - beautyline
 - name: "Utilities"
   description: "Currated List of Utilities"
   critical: false
