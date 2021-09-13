@@ -334,7 +334,7 @@
            - variety
            - xscreensaver
       - name: "Arc Theme"
-        description: "Innstall Arc Theme"
+        description: "Install Arc Theme"
         selected: false
         packages:
           - arc-blackest-theme-git
@@ -345,7 +345,7 @@
           - arc-kde
           - vlc-arc-dark-git
       - name: "Dracula Theme"
-        description: "Innstall Dracula Theme"
+        description: "Install Dracula Theme"
         selected: false
         packages:
            - ant-dracula-gtk-theme
@@ -358,13 +358,13 @@
            - konsole-dracula-git
            - vim-dracula
       - name: "Materia Theme"
-        description: "Innstall Materia Theme"
+        description: "Install Materia Theme"
         selected: false
         packages:
           - materia-gtk-theme
           - materia-kde
       - name: "Nordic Theme"
-        description: "Innstall Nordic Theme"
+        description: "Install Nordic Theme"
         selected: false
         packages:
           - kvantum-theme-nordic-git
@@ -379,7 +379,7 @@
           - nordic-theme
           - sddm-nordic-theme-git
       - name: "Qogir Theme"
-        description: "Innstall Qogir Theme"
+        description: "Install Qogir Theme"
         selected: false
         packages:
           - kvantum-theme-qogir-git
@@ -387,7 +387,7 @@
           - qogir-icon-theme
           - qogir-kde-theme-git
       - name: "Sweet Theme"
-        description: "Innstall Sweet Theme"
+        description: "Install Sweet Theme"
         selected: false
         packages:
           - sweet-gtk-theme
