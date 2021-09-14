@@ -90,6 +90,7 @@ strings:
 uploadServer :
     type :    "fiche"
     url :     "http://termbin.com:9999"
+    sizeLimit : -1
     
 # These images are loaded from the branding module directory.
 #
