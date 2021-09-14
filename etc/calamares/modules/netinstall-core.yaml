@@ -1,5 +1,5 @@
-- name: "XeroLinux System Config"
-  description: "Essential Requirement"
+- name: "XeroLinux Hidden"
+  description: "Essential Requirements"
   critical: false
   hidden: true
   selected: true
@@ -165,6 +165,7 @@
            - pipewire-media-session
            - pipewire-pulse
            - pipewire-zeroconf
+           - plasma-pa
            - gst-plugin-pipewire
       - name: "Pulse Audio"
         description: "Install Pulse Audio"
@@ -176,6 +177,7 @@
            - pulseaudio-qt
            - pulsemixer
            - pavucontrol
+           - plasma-pa
            - python-pulsectl
 - name: "RTL Driver"
   description: "Special RTL8821ce Driver"
