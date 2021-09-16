@@ -34,7 +34,7 @@ Presentation
         Image {
             id: background1
             source: "slide1.png"
-            width: 1002; height: 651
+            width: 900; height: 506
             verticalAlignment: Image.AlignTop
             fillMode: Image.Stretch
             anchors.fill: parent
