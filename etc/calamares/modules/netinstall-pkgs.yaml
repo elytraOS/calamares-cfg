@@ -317,6 +317,7 @@
     - alacritty-themes
     - cool-retro-term
     - cmatrix
+    - gnome-terminal-transparency
     - guake
     - rxvt-unicode
     - terminator
@@ -390,13 +391,11 @@
         description: "Install Sweet Theme"
         selected: false
         packages:
+          - plasma-theme-sweet
           - sweet-gtk-theme
           - sweet-gtk-theme-dark
           - sweet-kde-git
-          - aurorae-theme-sweet
           - kvantum-theme-sweet-git
-          - plasma-theme-sweet
-          - sddm-theme-sweet
           - beautyline
 - name: "Utilities"
   description: "Currated List of Utilities"
