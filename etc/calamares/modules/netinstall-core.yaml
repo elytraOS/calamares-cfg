@@ -25,7 +25,7 @@
     - amd-ucode
     - intel-ucode
 - name: "Lightdm Login"
-  description: "For Intel/nVidia Hybrid Laptops"
+  description: "ONLY for Intel/nVidia Hybrid Laptops"
   critical: false
   hidden: false
   selected: false
