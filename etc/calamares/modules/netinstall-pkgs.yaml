@@ -47,6 +47,7 @@
            - audacious-plugins
            - elisa
            - gmusicbrowser
+           - olivia
            - radiotray
            - sayonara-player
            - spotify-adblock-git
@@ -159,12 +160,13 @@
   expanded: false
   packages:
     - gamehub-bin
+    - gdlauncher
     - heroic-games-launcher-git
     - itch
     - lutris
     - mangohud
-    - minecraft-launcher
     - minigalaxy
+    - multimc5
     - playonlinux
     - proton-community-updater
     - steam
