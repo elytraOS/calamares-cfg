@@ -371,13 +371,9 @@
         selected: false
         packages:
           - kvantum-theme-nordic-git
-          - nordic-bluish-accent-theme
-          - nordic-bluish-theme-git
           - nordic-darker-standard-buttons-theme
           - nordic-darker-theme
-          - nordic-darker-theme-git
           - nordic-kde-git
-          - nordic-polar-theme-git
           - nordic-standard-buttons-theme
           - nordic-theme
           - sddm-nordic-theme-git
