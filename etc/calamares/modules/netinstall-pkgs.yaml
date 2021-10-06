@@ -160,7 +160,6 @@
   expanded: false
   packages:
     - gamehub-bin
-    - gdlauncher
     - heroic-games-launcher-git
     - itch
     - lutris
@@ -170,8 +169,6 @@
     - playonlinux
     - proton-community-updater
     - steam
-    - steam-native-runtime
-    - steam-tweaks
 - name: "Graphics Studio"
   description: "Some Graphic Apps"
   critical: false
