@@ -180,6 +180,47 @@
            - pavucontrol
            - plasma-pa
            - python-pulsectl
+- name: "Power Management"
+  description: "Laptop Power Management"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - tlp
+    - upower
+    - system76-power
+- name: "Printing Support"
+  description: "Add Printer Support"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "CUPS Drivers"
+        description: "Install CUPS Drivers"
+        selected: false
+        packages:
+           - cups
+           - cups-filters
+           - cups-pdf
+           - foomatic-db
+           - foomatic-db-engine
+           - foomatic-db-gutenprint-ppds
+           - foomatic-db-nonfree
+           - foomatic-db-nonfree-ppds
+           - ghostscript
+           - gsfonts
+           - gutenprint
+           - splix
+           - system-config-printer
+      - name: "HP Printer/Scanner"
+        description: "Install HP Printer/Scanner"
+        selected: false
+        packages:
+           - hplip
+           - python-pyqt5
+           - python-reportlab
+           - xsane
 - name: "RTL Driver"
   description: "Special RTL8821ce Driver"
   critical: false
