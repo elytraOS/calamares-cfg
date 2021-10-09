@@ -206,6 +206,7 @@
            - opera
            - otter-browser
            - seamonkey
+           - tangram
            - tor-browser
            - webapp-manager
       - name: "E-mail Clients"
