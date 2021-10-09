@@ -221,11 +221,12 @@
            - python-pyqt5
            - python-reportlab
            - xsane
-- name: "RTL Driver"
-  description: "Special RTL8821ce Driver"
+- name: "RTL & FingerPrint Driver"
+  description: "Special Drivers"
   critical: false
   hidden: false
   selected: false
   expanded: false
   packages:
+    - fingerprint-gui
     - rtl8821ce-dkms-git
