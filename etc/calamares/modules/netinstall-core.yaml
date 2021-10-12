@@ -80,7 +80,7 @@
   packages:
     - linux-amd-raven
     - linux-amd-raven-headers
-- name: "nVidia GPU Drivers + DKMS"
+- name: "nVidia GPU Drivers (latest)"
   description: "Select DKMS For Custom Kernel"
   critical: false
   hidden: false
