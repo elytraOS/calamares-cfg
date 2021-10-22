@@ -159,13 +159,13 @@
   selected: false
   expanded: false
   packages:
+    - devlauncher-git
     - gamehub-bin
     - heroic-games-launcher-git
     - itch
     - lutris
     - mangohud
     - minigalaxy
-    - multimc5
     - playonlinux
     - proton-community-updater
     - steam
