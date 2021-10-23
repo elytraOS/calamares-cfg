@@ -259,7 +259,7 @@
           - qbittorrent
           - transmission-gtk
           - xtreme-download
-- name: "LibreOffice"
+- name: "Office Suites"
   description: "Fresh Version"
   critical: false
   hidden: false
@@ -269,6 +269,31 @@
     - libreoffice-fresh
     - libreoffice-fresh-$LOCALE
     - hunspell-$LOCALE
+- name: "Office Suites"
+  description: "Libre, Free & WPS Office"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "Free Office"
+        description: "Free Office Suite"
+        selected: false
+        packages:
+           - freeoffice
+      - name: "Libre Office"
+        description: "Libre Office Fresh"
+        selected: false
+        packages:
+           - libreoffice-fresh
+           - libreoffice-fresh-$LOCALE
+           - hunspell-$LOCALE
+      - name: "WPS Office"
+        description: "WPS Office Suite"
+        selected: false
+        packages:
+           - wps-office
+           - ttf-wps-fonts
+           - wps-office-fonts
 - name: "Package Managers"
   description: "Additional Package Managers"
   critical: false
