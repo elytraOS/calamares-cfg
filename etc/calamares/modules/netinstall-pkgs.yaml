@@ -358,6 +358,7 @@
         selected: false
         packages:
            - conky-lua-archers
+           - konsave
            - variety
            - xscreensaver
       - name: "Arc Theme"
