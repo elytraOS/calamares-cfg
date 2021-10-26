@@ -116,6 +116,7 @@
   selected: false
   expanded: false
   packages:
+    - vulkan-intel
     - xf86-video-intel
 - name: "nVidia Tools"
   description: "Expand & Select Only What You Need"
