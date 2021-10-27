@@ -138,6 +138,7 @@
   selected: false
   expanded: false
   packages:
+    - amdvlk
     - xf86-video-amdgpu
 - name: "Generic GPU Drivers"
   description: "Various Other xf86 drivers"
