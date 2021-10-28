@@ -177,6 +177,7 @@
            - pulseaudio
            - pulseaudio-alsa
            - pulseaudio-bluetooth
+           - pulseaudio-jack
            - pulseaudio-qt
            - pulsemixer
            - pavucontrol
