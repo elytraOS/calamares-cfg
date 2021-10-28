@@ -226,7 +226,7 @@
         selected: false
         packages:
           - discord
-          - betterdiscord-installer
+          - betterdiscord-git
           - element-desktop
           - fractal
           - google-chat-linux-bin
@@ -240,7 +240,6 @@
           - teams
           - telegram-desktop-bin
           - tweetdeck-desktop
-          - whatsapp-nativefier
           - wire-desktop
           - zoom
       - name: "Download Managers"
