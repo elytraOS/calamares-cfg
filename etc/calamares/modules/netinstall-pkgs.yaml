@@ -226,7 +226,6 @@
         selected: false
         packages:
           - discord
-          - betterdiscord-git
           - element-desktop
           - fractal
           - google-chat-linux-bin
