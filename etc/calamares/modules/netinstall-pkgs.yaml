@@ -357,6 +357,7 @@
         packages:
            - conky-lua-archers
            - konsave
+           - latte-dock
            - variety
            - xscreensaver
       - name: "Arc Theme"
@@ -398,13 +399,6 @@
         packages:
           - materia-gtk-theme
           - materia-kde
-      - name: "Qogir Theme"
-        description: "Install Qogir Theme"
-        selected: false
-        packages:
-          - qogir-gtk-theme
-          - qogir-icon-theme
-          - qogir-kde-theme-git
       - name: "Sweet Theme"
         description: "Install Sweet Theme"
         selected: false
