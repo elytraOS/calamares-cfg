@@ -402,7 +402,6 @@
         description: "Install Qogir Theme"
         selected: false
         packages:
-          - kvantum-theme-qogir-git
           - qogir-gtk-theme
           - qogir-icon-theme
           - qogir-kde-theme-git
