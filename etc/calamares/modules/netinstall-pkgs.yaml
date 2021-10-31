@@ -259,16 +259,6 @@
           - transmission-gtk
           - xtreme-download
 - name: "Office Suites"
-  description: "Fresh Version"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - libreoffice-fresh
-    - libreoffice-fresh-$LOCALE
-    - hunspell-$LOCALE
-- name: "Office Suites"
   description: "Libre, Free & WPS Office"
   hidden: false
   selected: false
@@ -474,7 +464,7 @@
           - guvcview
           - mediainfo-gui
           - youtube-dl-gui
-- name: "Virtualization"
+- name: "Virtualibox"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
   hidden: false
@@ -482,7 +472,6 @@
   expanded: false
   packages:
     - virtualbox
-    - vmware-workstation
     - virtualbox-ext-vnc
     - virtualbox-guest-iso
     - virtualbox-host-dkms
