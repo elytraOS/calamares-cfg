@@ -374,15 +374,6 @@
            - dracula-xresources-git
            - konsole-dracula-git
            - vim-dracula
-      - name: "Layan Theme"
-        description: "Install Layan Theme"
-        selected: false
-        packages:
-          - kvantum-theme-layan-git
-          - layan-cursor-theme-git
-          - layan-gtk-theme-git
-          - layan-kde-git
-          - tela-circle-icon-theme-git
       - name: "Materia Theme"
         description: "Install Materia Theme"
         selected: false
