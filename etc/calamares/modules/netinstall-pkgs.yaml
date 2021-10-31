@@ -464,7 +464,7 @@
           - guvcview
           - mediainfo-gui
           - youtube-dl-gui
-- name: "Virtualibox"
+- name: "Virtualbox"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
   hidden: false
