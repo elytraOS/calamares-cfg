@@ -153,23 +153,6 @@
     - ttf-monofur
     - ttf-ms-fonts
     - ttf-nerd-fonts-symbols
-- name: "Game Launchers"
-  description: "Select what ya need"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - devlauncher-git
-    - gamehub-bin
-    - heroic-games-launcher-git
-    - itch
-    - lutris
-    - mangohud
-    - minigalaxy
-    - playonlinux
-    - proton-community-updater
-    - steam
 - name: "Graphics Studio"
   description: "Some Graphic Apps"
   critical: false
