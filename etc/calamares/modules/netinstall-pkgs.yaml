@@ -330,7 +330,6 @@
         packages:
            - conky-lua-archers
            - konsave
-           - latte-dock
            - variety
            - xscreensaver
       - name: "Arc Theme"
