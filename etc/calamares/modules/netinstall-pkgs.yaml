@@ -436,7 +436,7 @@
           - filebot
           - guvcview
           - mediainfo-gui
-          - youtube-dl-gui
+          - yt-dlp
 - name: "Virtualbox"
   description: "Custom Kernel vBox+DKMS Else vBox+Arch"
   critical: false
