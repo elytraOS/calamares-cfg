@@ -53,15 +53,6 @@
   packages:
     - linux-lts
     - linux-lts-headers
-- name: "Zen-Patched Kernel"
-  description: "For Best Compatibility"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - linux-zen
-    - linux-zen-headers
 - name: "AMD Ryzen Kernel"
   description: "For Latest AMD Ryzen CPUs"
   critical: false
