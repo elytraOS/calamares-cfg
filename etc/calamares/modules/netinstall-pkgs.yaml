@@ -208,6 +208,7 @@
         description: "Social Video & Chat Clients"
         selected: false
         packages:
+          - caprine
           - discord
           - element-desktop
           - fractal
@@ -240,6 +241,7 @@
           - nitroshare
           - qbittorrent
           - transmission-gtk
+          - uget
           - xtreme-download
 - name: "Office Suites"
   description: "Libre, Free & WPS Office"
@@ -381,9 +383,11 @@
   packages:
     - appimagelauncher
     - auto-cpufreq
+    - barrier
     - btop
     - caffeine-ng
     - cpu-x
+    - gnome-firmware
     - htop
     - openrgb
     - putty
