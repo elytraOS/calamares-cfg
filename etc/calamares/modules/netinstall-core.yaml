@@ -98,7 +98,6 @@
   selected: false
   expanded: false
   packages:
-    - vulkan-intel
     - xf86-video-intel
 - name: "nVidia Tools"
   description: "Expand & Select Only What You Need"
@@ -119,7 +118,6 @@
   selected: false
   expanded: false
   packages:
-    - amdvlk
     - xf86-video-amdgpu
 - name: "Audio Drivers"
   description: "Must Select One, else No-Audio"
