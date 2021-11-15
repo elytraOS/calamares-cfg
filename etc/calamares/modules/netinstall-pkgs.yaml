@@ -167,7 +167,6 @@
     - gimp
     - inkscape
     - krita
-    - wings3d
 - name: "Internet"
   description: "Internet & Social Tools"
   hidden: false
