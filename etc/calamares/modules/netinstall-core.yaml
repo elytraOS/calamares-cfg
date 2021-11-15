@@ -62,7 +62,7 @@
   packages:
     - linux-amd
     - linux-amd-headers
-- name: "nVidia GPU Drivers (latest)"
+- name: "nVidia GPU Drivers"
   description: "Select DKMS For Custom Kernel"
   critical: false
   hidden: false
@@ -92,7 +92,7 @@
   packages:
     - xf86-video-nouveau
 - name: "Intel GPU Drivers"
-  description: "Intel Graphics drivers"
+  description: "Latest Intel GPU Driver"
   critical: false
   hidden: false
   selected: false
@@ -100,7 +100,7 @@
   packages:
     - xf86-video-intel
 - name: "nVidia Tools"
-  description: "Expand & Select Only What You Need"
+  description: "Some extra nVidia tools"
   critical: false
   hidden: false
   selected: false
@@ -112,7 +112,7 @@
     - nvidia-xrun
     - nvtop
 - name: "AMD GPU Drivers"
-  description: "Installs AMD Graphics drivers"
+  description: "Latest AMD GPU Driver"
   critical: false
   hidden: false
   selected: false
