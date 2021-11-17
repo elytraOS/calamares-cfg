@@ -138,14 +138,12 @@
   expanded: false
   packages:
     - ttf-anonymous-pro
-    - terminus-font
     - ttf-bitstream-vera
     - ttf-liberation
     - ttf-carlito
     - ttf-cormorant
     - ttf-croscore
     - ttf-eurof
-    - ttf-fira-code
     - ttf-font-awesome
     - ttf-hactor
     - ttf-ibm-plex
