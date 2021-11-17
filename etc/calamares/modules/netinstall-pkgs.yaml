@@ -357,12 +357,6 @@
            - dracula-xresources-git
            - konsole-dracula-git
            - vim-dracula
-      - name: "Materia Theme"
-        description: "Install Materia Theme"
-        selected: false
-        packages:
-          - materia-gtk-theme
-          - materia-kde
       - name: "Sweet Theme"
         description: "Install Sweet Theme"
         selected: false
