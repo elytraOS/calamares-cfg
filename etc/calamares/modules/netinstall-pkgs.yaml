@@ -286,7 +286,7 @@
   selected: false
   expanded: false
   packages:
-    - bitwarden-bin
+    - bitwarden
     - enpass-bin
     - keepassxc
     - lastpass
