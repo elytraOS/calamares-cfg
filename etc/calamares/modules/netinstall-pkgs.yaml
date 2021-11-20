@@ -232,7 +232,7 @@
           - freedownloadmanager
           - insync
           - insync-dolphin
-          - jdownloader2-latest
+          - jdownloader2
           - ktorrent
           - megasync-bin
           - nitroshare
@@ -335,7 +335,6 @@
         description: "Install Arc Theme"
         selected: false
         packages:
-          - arc-blackest-theme-git
           - arc-darkest-theme-git
           - arc-firefox-theme-git
           - arc-gtk-theme
@@ -349,12 +348,17 @@
            - ant-dracula-gtk-theme
            - ant-dracula-kde-theme-git
            - ant-dracula-kvantum-theme-git
-           - dracula-alacritty-git
-           - dracula-grub-theme-git
-           - dracula-gtk-theme
-           - dracula-xresources-git
            - konsole-dracula-git
-           - vim-dracula
+      - name: "Nordic Theme"
+        description: "Install Dracula Theme"
+        selected: false
+        packages:
+           - kvantum-theme-nordic-git
+           - nordic-darker-theme
+           - nordic-kde-git
+           - nordic-theme
+           - sddm-nordic-theme-git
+           - zafiro-icon-theme
       - name: "Sweet Theme"
         description: "Install Sweet Theme"
         selected: false
