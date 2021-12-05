@@ -53,44 +53,6 @@
   packages:
     - linux-lts
     - linux-lts-headers
-- name: "AMD Ryzen Kernel"
-  description: "For Latest AMD Ryzen CPUs"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - linux-amd
-    - linux-amd-headers
-- name: "nVidia GPU Drivers"
-  description: "Select DKMS For Custom Kernel"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - nvidia
-    - nvidia-settings
-    - nvidia-utils
-    - nvidia-dkms
-- name: "nVidia-lts GPU Drivers"
-  description: "If Linux-LTS Kernel Selected"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - nvidia-lts
-    - nvidia-settings
-    - nvidia-utils
-- name: "Noveau GPU Drivers"
-  description: "Open Source GPU Driver"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - xf86-video-nouveau
 - name: "Intel GPU Drivers"
   description: "Latest Intel GPU Driver"
   critical: false
@@ -99,18 +61,6 @@
   expanded: false
   packages:
     - xf86-video-intel
-- name: "nVidia Tools"
-  description: "Some extra nVidia tools"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - bumblebee
-    - disper
-    - gwe
-    - nvidia-xrun
-    - nvtop
 - name: "AMD GPU Drivers"
   description: "Latest AMD GPU Driver"
   critical: false
@@ -191,6 +141,19 @@
            - python-pyqt5
            - python-reportlab
            - xsane
+- name: "Wacom Tablet Driver"
+  description: "Add Support for Wacom Tablets"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - kcm-wacomtablet
+    - libwacom
+    - switchboard-plug-wacom
+    - wacom-settings-git
+    - wacom-utility
+    - xf86-input-wacom
 - name: "RTL & FingerPrint Driver"
   description: "Special Drivers"
   critical: false
