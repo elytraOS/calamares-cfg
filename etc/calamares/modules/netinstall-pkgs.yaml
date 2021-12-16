@@ -434,6 +434,7 @@
            - barrier
            - caffeine-ng
            - gnome-firmware
+           - kwin-bismuth
            - openrgb
            - solaar
            - warpinator
