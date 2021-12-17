@@ -455,13 +455,13 @@
            - plex-media-player
            - plex-media-server
            - stremio
-           - vlc-luajit
+           - vlc
       - name: "Video Editors"
         description: "Selection of Video Capture & Editors"
         selected: false
         packages:
            - kdenlive
-           - obs-studio-tytan652
+           - obs-studio
            - openshot
            - pitivi
            - shotcut
