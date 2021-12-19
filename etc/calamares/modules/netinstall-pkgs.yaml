@@ -436,6 +436,7 @@
            - gnome-firmware
            - kwin-bismuth
            - openrgb
+           - quickgui-bin
            - solaar
            - warpinator
            - wireshark-qt

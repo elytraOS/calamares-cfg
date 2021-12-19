@@ -141,6 +141,16 @@
            - python-pyqt5
            - python-reportlab
            - xsane
+      - name: "Foomatic Printer Drivers"
+        description: "Foomatic based Printer Drivers"
+        selected: false
+        packages:
+           - foomatic-db
+           - foomatic-db-engine
+           - foomatic-db-nonfree
+           - foomatic-db-ppds
+           - foomatic-db-nonefree-ppds
+           - foomatic-db-gutenprint-ppds
 - name: "Wacom Tablet Driver"
   description: "Add Support for Wacom Tablets"
   critical: false
