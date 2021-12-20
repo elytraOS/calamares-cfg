@@ -119,20 +119,6 @@
   selected: false
   critical: false
   subgroups:
-      - name: "CUPS Drivers"
-        description: "Install CUPS Drivers"
-        selected: false
-        packages:
-           - bluez-cups
-           - cups
-           - cups-filters
-           - cups-pdf
-           - ghostscript
-           - gsfonts
-           - gutenprint
-           - print-manager
-           - splix
-           - system-config-printer
       - name: "HP Printer/Scanner"
         description: "Install HP Printer/Scanner"
         selected: false
