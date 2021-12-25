@@ -368,6 +368,7 @@
            - ant-dracula-gtk-theme
            - ant-dracula-kde-theme-git
            - ant-dracula-kvantum-theme-git
+           - dracula-icons-git
            - konsole-dracula-git
       - name: "Nordic Theme"
         description: "Install Nordic Theme"
