@@ -75,6 +75,7 @@
         packages:
            - easytag
            - element
+           - noisetorch
            - picard
            - rhythmbox
            - viper4linux-gui
@@ -436,6 +437,7 @@
            - caffeine-ng
            - gnome-firmware
            - kwin-bismuth
+           - linux-wifi-hotspot
            - openrgb
            - quickgui-bin
            - solaar
