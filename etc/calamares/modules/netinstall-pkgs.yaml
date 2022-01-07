@@ -78,7 +78,6 @@
            - noisetorch
            - picard
            - rhythmbox
-           - viper4linux-gui
 - name: "Benchmarking Tools"
   description: "Test you Machine for Gaming"
   critical: false
