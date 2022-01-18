@@ -73,17 +73,17 @@ sidebar: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         XeroLinux
-    shortProductName:    XeroLinux
-    version:             2021.08
-    shortVersion:        2021.08.12
-    versionedName:       XeroLinux
-    shortVersionedName:  XeroLinux
-    bootloaderEntryName: XeroLinux
-    productUrl:          https://xerolinux.online/
-    supportUrl:          https://xerolinux.online/
+    productName:         XeroLinux-KDE
+    shortProductName:    XeroLinux-KDE
+    version:             2022.01
+    shortVersion:        2022.01.01
+    versionedName:       XeroLinux-KDE
+    shortVersionedName:  XeroLinux-KDE
+    bootloaderEntryName: XeroLinux-KDE
+    productUrl:          https://xerolinux.xyz/
+    supportUrl:          https://xerolinux.xyz/
 #   knownIssuesUrl:      https://techxero.github.io/projects/#xero-linux
-    releaseNotesUrl:     https://xerolinux.online/july-2021-build-release-notes/
+    releaseNotesUrl:     https://xerolinux.xyz/
 
 # log feature
 
