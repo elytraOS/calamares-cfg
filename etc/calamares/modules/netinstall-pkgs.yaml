@@ -75,6 +75,7 @@
         packages:
            - easytag
            - element
+           - glava
            - noisetorch
            - picard
            - rhythmbox
