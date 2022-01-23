@@ -194,7 +194,7 @@
   critical: false
   subgroups:
       - name: "The Browsers"
-        description: "Few Desktop Tools"
+        description: "A Collection Of Browsers"
         selected: false
         packages:
            - brave-bin
