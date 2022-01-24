@@ -261,16 +261,11 @@
           - uget
           - xtreme-download
 - name: "Office Suites"
-  description: "Libre, Free & WPS Office"
+  description: "Libre, Free, Only & WPS Office"
   hidden: false
   selected: false
   critical: false
   subgroups:
-      - name: "Free Office"
-        description: "Free Office Suite"
-        selected: false
-        packages:
-           - freeoffice
       - name: "Libre Office"
         description: "Libre Office Fresh"
         selected: false
@@ -278,6 +273,12 @@
            - libreoffice-fresh
            - libreoffice-fresh-$LOCALE
            - hunspell-$LOCALE
+      - name: "Only & Free Office"
+        description: "Only & Free Office Suites"
+        selected: false
+        packages:
+           - freeoffice
+           - onlyoffice-bin
       - name: "WPS Office"
         description: "WPS Office Suite"
         selected: false
