@@ -151,7 +151,7 @@
     - wacom-settings-git
     - wacom-utility
     - xf86-input-wacom
-- name: "RTL & FingerPrint Driver"
+- name: "FingerPrint Driver"
   description: "Special Drivers"
   critical: false
   hidden: false
@@ -159,4 +159,3 @@
   expanded: false
   packages:
     - fingerprint-gui
-    - rtl8821ce-dkms-git
