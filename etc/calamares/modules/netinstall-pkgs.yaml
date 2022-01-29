@@ -397,13 +397,12 @@
   critical: false
   subgroups:
       - name: "Resource Monitors"
-        description: "HTOP, BTOP & Others"
+        description: "GOTOP, BTOP & Others"
         selected: false
         packages:
            - btop
            - gotop
            - hardinfo
-           - htop
            - nvtop
            - vtop
       - name: "CPU Tools"
