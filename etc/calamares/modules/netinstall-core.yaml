@@ -6,7 +6,6 @@
   packages:
     - kwallet-pam
     - sysconfig
-    - xerolinux-filesystem-tool-git
 - name: "Stock Arch Kernel"
   description: "Newer version than ISO"
   critical: false
