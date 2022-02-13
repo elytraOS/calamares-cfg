@@ -86,7 +86,6 @@
            - pipewire-zeroconf
            - plasma-pa
            - gst-plugin-pipewire
-           - jamesdsp
       - name: "Pulse Audio"
         description: "Install Pulse Audio"
         selected: false
@@ -101,7 +100,6 @@
            - pulsemixer
            - pavucontrol
            - plasma-pa
-           - jamesdsp-pulse
            - python-pulsectl
 - name: "Power Management"
   description: "Laptop Power Management"
