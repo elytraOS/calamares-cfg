@@ -5,7 +5,7 @@
   selected: true
   packages:
     - kwallet-pam
-    - sysconfig
+    - sysconfig-dev
 - name: "Stock Arch Kernel"
   description: "Newer version than ISO"
   critical: false

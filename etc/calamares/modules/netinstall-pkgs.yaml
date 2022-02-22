@@ -45,6 +45,7 @@
            - amarok
            - audacious
            - audacious-plugins
+           - deezer
            - elisa
            - gmusicbrowser
            - olivia
@@ -58,7 +59,6 @@
         packages:
            - ardour
            - audacity
-           - glada
            - kwave
            - lmms
       - name: "Audio Converters"
@@ -79,6 +79,30 @@
            - noisetorch
            - picard
            - rhythmbox
+- name: "BTRFS Tools"
+  description: "Backup Tools for BTRFS"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "Snapper for BTRFS"
+        description: "Snapper Backup Tools"
+        selected: false
+        packages:
+           - btrfs-assistant
+           - btrfs-du
+           - grub-btrfs
+           - snap-pac
+           - snapper
+           - snapper-gui-git
+           - snapper-support
+      - name: "TimeShift for BTRFS"
+        description: "Tools For iOS Devices"
+        selected: false
+        packages:
+           - timeshift
+           - timeshift-autosnap
+           - grub-btrfs
 - name: "Benchmarking Tools"
   description: "Test you Machine for Gaming"
   critical: false
@@ -101,8 +125,6 @@
         selected: false
         packages:
            - atom
-           - emacs
-           - geany
            - kdevelop
            - notepadqq
            - sublime-text-4
@@ -151,7 +173,6 @@
     - gparted
     - rpi-imager
     - ventoy-bin
-    - woeusb-gui
 - name: "Extra Fonts"
   description: "Handpicked Fonts"
   critical: false
@@ -183,7 +204,7 @@
     - blender
     - darktable
     - digikam
-    - flameshot    
+    - flameshot
     - gimp
     - inkscape
     - krita
@@ -199,7 +220,6 @@
         packages:
            - brave-bin
            - chromium
-           - epiphany
            - falkon
            - firefox-i18n-$LOCALE
            - firefox-developer-edition
@@ -233,7 +253,6 @@
           - fractal
           - google-chat-linux-bin
           - google-messages
-          - jitsi-meet-desktop-bin
           - mumble
           - neochat
           - pidgin
@@ -252,11 +271,13 @@
           - deluge
           - dropbox
           - filezilla
+          - fragments
           - freedownloadmanager
           - jdownloader2
           - ktorrent
           - megasync-bin
           - nitroshare
+          - persepolis
           - qbittorrent
           - transmission-gtk
           - uget
@@ -371,16 +392,6 @@
            - ant-dracula-kvantum-theme-git
            - dracula-icons-git
            - konsole-dracula-git
-      - name: "Nordic Theme"
-        description: "Install Nordic Theme"
-        selected: false
-        packages:
-           - kvantum-theme-nordic-git
-           - nordic-darker-theme
-           - nordic-kde-git
-           - nordic-theme
-           - sddm-nordic-theme-git
-           - zafiro-icon-theme
       - name: "Sweet Theme"
         description: "Install Sweet Theme"
         selected: false
@@ -398,12 +409,13 @@
   critical: false
   subgroups:
       - name: "Resource Monitors"
-        description: "GOTOP, BTOP & Others"
+        description: "HTOP, BTOP & Others"
         selected: false
         packages:
            - btop
            - gotop
            - hardinfo
+           - htop
            - nvtop
            - vtop
       - name: "CPU Tools"
