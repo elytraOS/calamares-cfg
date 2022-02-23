@@ -319,7 +319,7 @@
     - parsec-bin
     - realvnc-vnc-server
     - realvnc-vnc-viewer
-    - remina
+    - remmina
     - teamviewer
 - name: "Terminal Emulators"
   description: "Extra Terminal Emulators"
