@@ -389,9 +389,7 @@
         selected: false
         packages:
            - btop
-           - gotop
-           - hardinfo
-           - htop
+           - gotop-bin
            - nvtop
            - vtop
       - name: "CPU Tools"
@@ -407,10 +405,10 @@
         description: "CLI Tools & Cool Toys"
         selected: false
         packages:
+           - bash-pipes
            - cava
            - cmatrix
            - cowsay
-           - pipes.sh
            - putty
            - s-tui
            - tty-clock
