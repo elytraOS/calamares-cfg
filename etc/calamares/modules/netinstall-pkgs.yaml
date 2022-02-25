@@ -238,6 +238,7 @@
           - teams
           - telegram-desktop
           - tweetdeck-desktop
+          - viber
           - wire-desktop
           - zoom
       - name: "Download Managers"
@@ -291,7 +292,7 @@
   selected: false
   expanded: false
   packages:
-    - aura
+    - aura-bin
     - bauh
     - discover
     - flatpak
