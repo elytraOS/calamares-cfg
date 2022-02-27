@@ -79,6 +79,7 @@
            - noisetorch
            - picard
            - rhythmbox
+           - soundux
 - name: "Benchmarking Tools"
   description: "Test you Machine for Gaming"
   critical: false
