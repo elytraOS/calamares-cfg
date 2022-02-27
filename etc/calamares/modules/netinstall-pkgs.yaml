@@ -369,6 +369,16 @@
            - ant-dracula-kvantum-theme-git
            - dracula-icons-git
            - konsole-dracula-git
+      - name: "Nordic Theme"
+        description: "Install Nordic Theme"
+        selected: false
+        packages:
+           - kvantum-theme-nordic-git
+           - nordic-darker-theme
+           - nordic-kde-git
+           - nordic-theme
+           - sddm-nordic-theme-git
+           - zafiro-icon-theme
       - name: "Sweet Theme"
         description: "Install Sweet Theme"
         selected: false
