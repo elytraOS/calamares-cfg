@@ -80,7 +80,6 @@
         packages:
            - pipewire
            - pipewire-alsa
-           - pipewire-jack
            - pipewire-media-session
            - pipewire-pulse
            - pipewire-zeroconf
@@ -133,7 +132,7 @@
            - foomatic-db-engine
            - foomatic-db-nonfree
            - foomatic-db-ppds
-           - foomatic-db-nonefree-ppds
+           - foomatic-db-nonfree-ppds
            - foomatic-db-gutenprint-ppds
 - name: "Wacom Tablet Driver"
   description: "Add Support for Wacom Tablets"
