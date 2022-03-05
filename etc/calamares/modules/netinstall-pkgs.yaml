@@ -150,27 +150,6 @@
     - gparted
     - rpi-imager
     - ventoy-bin
-- name: "Extra Fonts"
-  description: "Handpicked Fonts"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - ttf-anonymous-pro
-    - ttf-bitstream-vera
-    - ttf-liberation
-    - ttf-carlito
-    - ttf-cormorant
-    - ttf-croscore
-    - ttf-eurof
-    - ttf-font-awesome
-    - ttf-hactor
-    - ttf-ibm-plex
-    - ttf-jetbrains-mono
-    - ttf-monofur
-    - ttf-ms-fonts
-    - ttf-nerd-fonts-symbols
 - name: "Graphics Studio"
   description: "Some Graphic Apps"
   critical: false

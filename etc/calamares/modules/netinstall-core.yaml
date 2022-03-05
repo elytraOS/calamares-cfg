@@ -43,15 +43,6 @@
   packages:
     - optimus-manager
     - optimus-manager-qt
-- name: "Stable LTS Kernel"
-  description: "Long Term Support Kernel"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - linux-lts
-    - linux-lts-headers
 - name: "Intel GPU Drivers"
   description: "Latest Intel GPU Driver"
   critical: false
