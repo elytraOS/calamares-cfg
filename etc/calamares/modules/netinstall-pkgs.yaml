@@ -388,7 +388,7 @@
         packages:
           - auto-cpufreq
           - cpu-x
-          - cpufetch-git
+          - cpufetch
           - cpuid
           - cpupower
       - name: "CLI Tools"
