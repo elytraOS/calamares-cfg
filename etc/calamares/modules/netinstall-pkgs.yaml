@@ -177,8 +177,8 @@
            - brave-bin
            - chromium
            - falkon
+           - ferdi-bin
            - firefox-i18n-$LOCALE
-           - firefox-developer-edition
            - firefox-adblock-plus
            - librewolf-bin
            - netsurf
@@ -236,8 +236,7 @@
           - nitroshare
           - persepolis
           - qbittorrent
-          - transmission-gtk
-          - uget
+          - transmission-qt
           - xtreme-download
 - name: "Office Suites"
   description: "Libre, Free, Only & WPS Office"
@@ -380,7 +379,7 @@
         selected: false
         packages:
            - btop
-           - gotop-bin
+           - gotop
            - nvtop
            - vtop
       - name: "CPU Tools"
