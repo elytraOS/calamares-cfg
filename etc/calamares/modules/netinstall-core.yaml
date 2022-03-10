@@ -19,7 +19,7 @@
   description: "Stable LTS Kernel"
   critical: false
   hidden: false
-  selected: true
+  selected: false
   expanded: false
   packages:
     - linux-lts
