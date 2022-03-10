@@ -15,6 +15,15 @@
   packages:
     - linux
     - linux-headers
+- name: "LTS Kernel"
+  description: "Stable LTS Kernel"
+  critical: false
+  hidden: false
+  selected: true
+  expanded: false
+  packages:
+    - linux-lts
+    - linux-lts-headers
 - name: "Processor U-Code"
   description: "Select Your CPU's Microcode"
   critical: true
