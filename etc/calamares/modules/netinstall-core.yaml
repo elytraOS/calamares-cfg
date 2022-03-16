@@ -60,6 +60,14 @@
   expanded: false
   packages:
     - xf86-video-intel
+- name: "ATI GPU Drivers"
+  description: "Legacy Radeon/ATI GPU Driver"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-ati
 - name: "AMD GPU Drivers"
   description: "Latest AMD GPU Driver"
   critical: false
