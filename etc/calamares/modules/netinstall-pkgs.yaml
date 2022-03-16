@@ -383,7 +383,7 @@
            - nvtop
            - vtop
       - name: "CPU Tools"
-        description: "CPU Monitoring Tools"
+        description: "CPU Checking Tools"
         selected: false
         packages:
           - auto-cpufreq
