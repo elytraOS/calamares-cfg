@@ -109,7 +109,7 @@
         description: "Tools for GitHub"
         selected: false
         packages:
-           - gitahead-bin
+           - gitahead
            - gitg
            - gitfiend
            - gitkraken
