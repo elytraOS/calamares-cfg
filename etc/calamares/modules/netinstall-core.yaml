@@ -142,19 +142,6 @@
            - foomatic-db-ppds
            - foomatic-db-nonfree-ppds
            - foomatic-db-gutenprint-ppds
-- name: "Wacom Tablet Driver"
-  description: "Add Support for Wacom Tablets"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - kcm-wacomtablet
-    - libwacom
-    - switchboard-plug-wacom
-    - wacom-settings-git
-    - wacom-utility
-    - xf86-input-wacom
 - name: "FingerPrint Driver"
   description: "Special Drivers"
   critical: false
