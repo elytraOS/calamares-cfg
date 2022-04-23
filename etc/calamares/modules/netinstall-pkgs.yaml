@@ -1,14 +1,3 @@
-- name: "Bluetooth Support"
-  description: "To have Bluetooth"
-  critical: false
-  hidden: true
-  selected: true
-  expanded: false
-  packages:
-    - blueberry
-    - bluez
-    - bluez-libs
-    - bluez-utils
 - name: "Android & iOS Tools"
   description: "Adds support for Android & iOS"
   hidden: false
