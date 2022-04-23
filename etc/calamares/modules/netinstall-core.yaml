@@ -15,15 +15,6 @@
   packages:
     - linux
     - linux-headers
-- name: "LTS Kernel"
-  description: "Stable LTS Kernel"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - linux-lts
-    - linux-lts-headers
 - name: "Processor U-Code"
   description: "Select Your CPU's Microcode"
   critical: true
@@ -76,23 +67,6 @@
   expanded: false
   packages:
     - xf86-video-amdgpu
-- name: "Audio Drivers"
-  description: "Must Select One, else No-Audio"
-  hidden: false
-  selected: false
-  critical: false
-  subgroups:
-      - name: "PipeWire Audio"
-        description: "Install PipeWire Audio"
-        selected: false
-        packages:
-           - pipewire-support
-      - name: "Pulse Audio"
-        description: "Install Pulse Audio"
-        selected: false
-        packages:
-           - pulseaudio-support
-           - pulseaudio-bluetooth
 - name: "Power Management"
   description: "Laptop Power Management"
   critical: false
