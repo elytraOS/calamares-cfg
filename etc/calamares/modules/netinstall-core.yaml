@@ -86,28 +86,13 @@
         description: "Install PipeWire Audio"
         selected: false
         packages:
-           - pipewire
-           - pipewire-alsa
-           - pipewire-media-session
-           - pipewire-pulse
-           - pipewire-zeroconf
-           - plasma-pa
-           - gst-plugin-pipewire
+           - pipewire-support
       - name: "Pulse Audio"
         description: "Install Pulse Audio"
         selected: false
         packages:
-           - alsa-firmware
-           - paprefs
-           - pulseaudio
-           - pulseaudio-alsa
+           - pulseaudio-support
            - pulseaudio-bluetooth
-           - pulseaudio-jack
-           - pulseaudio-qt
-           - pulsemixer
-           - pavucontrol
-           - plasma-pa
-           - python-pulsectl
 - name: "Power Management"
   description: "Laptop Power Management"
   critical: false
