@@ -1,8 +1,9 @@
-- name: "XeroLinux Hidden"
+- name: "XeroLinux Essentials"
   description: "Essential Requirements"
   critical: false
-  hidden: true
+  hidden: false
   selected: true
+  immutable: true
   packages:
     - kwallet-pam
     - sysconfig
