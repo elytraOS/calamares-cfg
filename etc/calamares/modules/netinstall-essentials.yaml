@@ -122,6 +122,7 @@
   selected: false
   expanded: false
   packages:
+    - nvidia-prime
     - optimus-manager
     - optimus-manager-qt
 - name: "Power Management"
