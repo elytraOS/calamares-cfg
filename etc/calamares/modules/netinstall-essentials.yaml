@@ -1,0 +1,187 @@
+- name: "XeroLinux Essentials"
+  description: "Required, Immutable"
+  critical: true
+  hidden: false
+  selected: true
+  immutable: true
+  packages:
+    - xerolinux-tool
+- name: "ArchLinux Kernel"
+  description: "Keep Checked for Latest"
+  critical: true
+  hidden: false
+  selected: true
+  packages:
+    - linux
+    - linux-headers
+- name: "AMD GPU Drivers"
+  description: "Latest AMD GPU Driver"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-amdgpu
+- name: "ATI GPU Drivers"
+  description: "Legacy Radeon/ATI GPU Driver"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - xf86-video-ati
+- name: "BTRFS Tools"
+  description: "Backup Tools for BTRFS"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "Snapper for BTRFS"
+        description: "Snapper Backup Tools"
+        selected: false
+        packages:
+           - btrfs-assistant
+           - btrfs-du
+           - grub-btrfs
+           - snap-pac
+           - snapper
+           - snapper-gui-git
+           - snapper-support
+      - name: "TimeShift for BTRFS"
+        description: "Tools For iOS Devices"
+        selected: false
+        packages:
+           - timeshift
+           - timeshift-autosnap
+           - grub-btrfs
+- name: "CPU MicroCode"
+  description: "Select Your CPU's Microcode"
+  critical: true
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amd-ucode
+    - intel-ucode
+- name: "nVidia GPU Drivers"
+  description: "Select Correct One for your GPU"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "nVidia Latest"
+        description: "For 900 Series & Up"
+        selected: false
+        packages:
+           - nvidia-dkms
+           - nvidia-utils
+           - nvidia-settings
+           - opencl-nvidia
+           - lib32-opencl-nvidia
+      - name: "nVidia Fermi"
+        description: "For Fermi based GPUs"
+        selected: false
+        packages:
+           - nvidia-390xx-dkms
+           - nvidia-390xx-utils
+           - nvidia-390xx-settings
+           - opencl-nvidia-390xx
+           - lib32-opencl-nvidia-390xx
+      - name: "nVidia Kepler"
+        description: "For Kepler based GPUs"
+        selected: false
+        packages:
+           - nvidia-470xx-dkms
+           - nvidia-470xx-utils
+           - nvidia-470xx-settings
+           - opencl-nvidia-470xx
+           - lib32-opencl-nvidia-470xx
+      - name: "nVidia Legacy"
+        description: "For GPUs older than Fermi"
+        selected: false
+        packages:
+           - nvidia-340xx-dkms
+           - nvidia-340xx-utils
+           - nvidia-340xx-settings
+           - opencl-nvidia-390xx
+           - lib32-opencl-nvidia-340xx
+- name: "Network Drivers"
+  description: "Extra Network Device Drivers."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - broadcom-wl-dkms
+    - linux-wifi-hotspot
+    - r8168-dkms
+- name: "Optimus Manager"
+  description: "Enable iGPU/nVidia GPU Switching"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - optimus-manager
+    - optimus-manager-qt
+- name: "Power Management"
+  description: "Laptop Power Management"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - auto-cpufreq
+    - cpupower
+    - tlp
+    - upower
+    - system76-power
+- name: "Printing Support"
+  description: "Add Printer Support"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "HP Printer/Scanner"
+        description: "Install HP Printer/Scanner"
+        selected: false
+        packages:
+           - hplip
+           - python-pyqt5
+           - python-reportlab
+           - xsane
+      - name: "Foomatic Printer Drivers"
+        description: "Foomatic based Printer Drivers"
+        selected: false
+        packages:
+           - foomatic-db
+           - foomatic-db-engine
+           - foomatic-db-nonfree
+           - foomatic-db-ppds
+           - foomatic-db-nonfree-ppds
+           - foomatic-db-gutenprint-ppds
+- name: "System Tools"
+  description: "Hardware Tweaking Tools"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - corectrl
+    - fancontrol-gui
+    - gnome-firmware
+    - mousetweaks
+    - openrgb
+    - radeontool
+    - solaar
+    - system-monitoring-center
+- name: "Various Drivers"
+  description: "Other Drivers"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - intel-compute-runtime
+    - intel-media-driver
+    - ipw2100-fw
