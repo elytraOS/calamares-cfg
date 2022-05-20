@@ -11,6 +11,7 @@
   critical: true
   hidden: false
   selected: true
+  immutable: true
   packages:
     - linux
     - linux-headers
