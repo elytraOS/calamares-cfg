@@ -7,7 +7,7 @@
   packages:
     - xerolinux-tool
 - name: "ArchLinux Kernel"
-  description: "Keep Checked for Latest"
+  description: "Always Gets Latest"
   critical: true
   hidden: false
   selected: true
