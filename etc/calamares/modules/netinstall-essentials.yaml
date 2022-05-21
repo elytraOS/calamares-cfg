@@ -49,7 +49,7 @@
            - snapper-gui-git
            - snapper-support
       - name: "TimeShift for BTRFS"
-        description: "Tools For iOS Devices"
+        description: "TimeShift & Grub-BTRFS"
         selected: false
         packages:
            - timeshift
