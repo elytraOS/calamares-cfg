@@ -78,6 +78,7 @@
            - nvidia-utils-tkg
            - nvidia-settings-tkg
            - opencl-nvidia-tkg
+           - lib32-nvidia-utils-tkg
            - lib32-opencl-nvidia-tkg
       - name: "nVidia Fermi"
         description: "For Fermi based GPUs"
