@@ -70,15 +70,15 @@
   selected: false
   critical: false
   subgroups:
-      - name: "nVidia Latest"
+      - name: "nVidia Latest Stable"
         description: "For 900 Series & Up"
         selected: false
         packages:
-           - nvidia-dkms
-           - nvidia-utils
-           - nvidia-settings
-           - opencl-nvidia
-           - lib32-opencl-nvidia
+           - nvidia-dkms-tkg
+           - nvidia-utils-tkg
+           - nvidia-settings-tkg
+           - opencl-nvidia-tkg
+           - lib32-opencl-nvidia-tkg
       - name: "nVidia Fermi"
         description: "For Fermi based GPUs"
         selected: false
