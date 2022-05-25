@@ -70,8 +70,8 @@
   selected: false
   critical: false
   subgroups:
-      - name: "nVidia Latest Stable"
-        description: "For 900 Series & Up"
+      - name: "nVidia 510 TKG"
+        description: "For 900 Series & Up (Recommended)"
         selected: false
         packages:
            - nvidia-dkms-tkg
@@ -80,6 +80,24 @@
            - opencl-nvidia-tkg
            - lib32-nvidia-utils-tkg
            - lib32-opencl-nvidia-tkg
+      - name: "nVidia 515 Unstable"
+        description: "For 900 Series & Up (Not Recommended)"
+        selected: false
+        packages:
+           - nvidia-dkms
+           - nvidia-utils
+           - nvidia-settings
+           - lib32-nvidia-utils
+           - lib32-opencl-nvidia
+      - name: "nVidia Open KMS"
+        description: "For 20 Series & Up (Testing)"
+        selected: false
+        packages:
+           - nvidia-open-dkms
+           - nvidia-utils
+           - nvidia-settings
+           - lib32-nvidia-utils
+           - lib32-opencl-nvidia
       - name: "nVidia Fermi"
         description: "For Fermi based GPUs"
         selected: false
