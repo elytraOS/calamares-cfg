@@ -15,6 +15,15 @@
   packages:
     - linux
     - linux-headers
+- name: "CPU MicroCode"
+  description: "Select Your CPU's Microcode"
+  critical: true
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - amd-ucode
+    - intel-ucode
 - name: "AMD GPU Drivers"
   description: "Latest AMD GPU Driver"
   critical: false
@@ -31,39 +40,6 @@
   expanded: false
   packages:
     - xf86-video-ati
-- name: "BTRFS Tools"
-  description: "Backup Tools for BTRFS"
-  hidden: false
-  selected: false
-  critical: false
-  subgroups:
-      - name: "Snapper for BTRFS"
-        description: "Snapper Backup Tools"
-        selected: false
-        packages:
-           - btrfs-assistant
-           - btrfs-du
-           - grub-btrfs
-           - snap-pac
-           - snapper
-           - snapper-gui-git
-           - snapper-support
-      - name: "TimeShift for BTRFS"
-        description: "TimeShift & Grub-BTRFS"
-        selected: false
-        packages:
-           - timeshift
-           - timeshift-autosnap
-           - grub-btrfs
-- name: "CPU MicroCode"
-  description: "Select Your CPU's Microcode"
-  critical: true
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - amd-ucode
-    - intel-ucode
 - name: "nVidia GPU Drivers"
   description: "Select Correct One for your GPU"
   hidden: false
@@ -99,15 +75,6 @@
            - nvidia-settings
            - lib32-nvidia-utils
            - lib32-opencl-nvidia
-      - name: "nVidia Fermi"
-        description: "For Fermi based GPUs"
-        selected: false
-        packages:
-           - nvidia-390xx-dkms
-           - nvidia-390xx-utils
-           - nvidia-390xx-settings
-           - opencl-nvidia-390xx
-           - lib32-opencl-nvidia-390xx
       - name: "nVidia Kepler"
         description: "For Kepler based GPUs"
         selected: false
@@ -117,6 +84,15 @@
            - nvidia-470xx-settings
            - opencl-nvidia-470xx
            - lib32-opencl-nvidia-470xx
+      - name: "nVidia Fermi"
+        description: "For Fermi based GPUs"
+        selected: false
+        packages:
+           - nvidia-390xx-dkms
+           - nvidia-390xx-utils
+           - nvidia-390xx-settings
+           - opencl-nvidia-390xx
+           - lib32-opencl-nvidia-390xx
       - name: "nVidia Legacy"
         description: "For GPUs older than Fermi"
         selected: false
@@ -126,16 +102,6 @@
            - nvidia-340xx-settings
            - opencl-nvidia-390xx
            - lib32-opencl-nvidia-340xx
-- name: "Network Drivers"
-  description: "Extra Network Device Drivers."
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - broadcom-wl-dkms
-    - linux-wifi-hotspot
-    - r8168-dkms
 - name: "Optimus Manager"
   description: "Enable iGPU/nVidia GPU Switching"
   critical: false
@@ -146,6 +112,40 @@
     - nvidia-prime
     - optimus-manager
     - optimus-manager-qt
+- name: "BTRFS Tools"
+  description: "Backup Tools for BTRFS"
+  hidden: false
+  selected: false
+  critical: false
+  subgroups:
+      - name: "Snapper for BTRFS"
+        description: "Snapper Backup Tools"
+        selected: false
+        packages:
+           - btrfs-assistant
+           - btrfs-du
+           - grub-btrfs
+           - snap-pac
+           - snapper
+           - snapper-gui-git
+           - snapper-support
+      - name: "TimeShift for BTRFS"
+        description: "TimeShift & Grub-BTRFS"
+        selected: false
+        packages:
+           - timeshift
+           - timeshift-autosnap
+           - grub-btrfs
+- name: "Network Drivers"
+  description: "Extra Network Device Drivers."
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - broadcom-wl-dkms
+    - linux-wifi-hotspot
+    - r8168-dkms
 - name: "Power Management"
   description: "Laptop Power Management"
   critical: false
