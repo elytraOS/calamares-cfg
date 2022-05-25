@@ -74,6 +74,7 @@
         description: "For 900 Series & Up (Recommended)"
         selected: false
         packages:
+           - egl-wayland
            - nvidia-dkms-tkg
            - nvidia-utils-tkg
            - nvidia-settings-tkg
