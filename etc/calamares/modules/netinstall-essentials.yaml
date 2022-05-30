@@ -46,7 +46,7 @@
   selected: false
   critical: false
   subgroups:
-      - name: "nVidia 510 TKG"
+      - name: "nVidia Latest (Stable)"
         description: "For 900 Series & Up"
         selected: false
         packages:
