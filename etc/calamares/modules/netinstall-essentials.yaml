@@ -60,11 +60,12 @@
         description: "For Kepler based GPUs"
         selected: false
         packages:
-           - nvidia-470xx-dkms
-           - nvidia-470xx-utils
-           - nvidia-470xx-settings
-           - opencl-nvidia-470xx
-           - lib32-opencl-nvidia-470xx
+           - nvidia-470xx-dkms-tkg
+           - nvidia-470xx-utils-tkg
+           - nvidia-470xx-settings-tkg
+           - opencl-nvidia-470xx-tkg
+           - lib32-nvidia-470xx-utils-tkg
+           - lib32-opencl-nvidia-470xx-tkg
       - name: "nVidia Fermi"
         description: "For Fermi based GPUs"
         selected: false
