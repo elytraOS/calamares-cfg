@@ -94,30 +94,6 @@
     - nvidia-prime
     - optimus-manager
     - optimus-manager-qt
-- name: "BTRFS Tools"
-  description: "Backup Tools for BTRFS"
-  hidden: false
-  selected: false
-  critical: false
-  subgroups:
-      - name: "Snapper for BTRFS"
-        description: "Snapper Backup Tools"
-        selected: false
-        packages:
-           - btrfs-assistant
-           - btrfs-du
-           - grub-btrfs
-           - snap-pac
-           - snapper
-           - snapper-gui-git
-           - snapper-support
-      - name: "TimeShift for BTRFS"
-        description: "TimeShift & Grub-BTRFS"
-        selected: false
-        packages:
-           - timeshift
-           - timeshift-autosnap
-           - grub-btrfs
 - name: "Network Drivers"
   description: "Extra Network Device Drivers."
   critical: false
@@ -128,18 +104,6 @@
     - broadcom-wl-dkms
     - linux-wifi-hotspot
     - r8168-dkms
-- name: "Power Management"
-  description: "Laptop Power Management"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - auto-cpufreq
-    - cpupower
-    - tlp
-    - upower
-    - system76-power
 - name: "Printing Support"
   description: "Add Printer Support"
   hidden: false
@@ -164,21 +128,6 @@
            - foomatic-db-ppds
            - foomatic-db-nonfree-ppds
            - foomatic-db-gutenprint-ppds
-- name: "System Tools"
-  description: "Hardware Tweaking Tools"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - corectrl
-    - fancontrol-gui
-    - gnome-firmware
-    - mousetweaks
-    - openrgb
-    - radeontool
-    - solaar
-    - system-monitoring-center
 - name: "Various Drivers"
   description: "Other Drivers"
   critical: false
