@@ -22,7 +22,7 @@ Page {
 
     id: finished
     // needs to come from umount.conf
-    property var configdestLog: "/var/log/installation.log"
+    property var configdestLog: "/var/log/Calamares.log"
 
     width: parent.width
     height: parent.height
