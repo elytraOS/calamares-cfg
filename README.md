@@ -2,4 +2,4 @@
 
 Repo for **XeroLinux** Calamares config. Feel free to clone and modify to work for your setup and share if it works ;)
 
-![XeroLinux-Calamares](https://i.imgur.com/tWxKetP.png)
+![XeroLinux-Calamares](https://i.imgur.com/hvvsnVQ.png)
