@@ -82,8 +82,7 @@ strings:
     bootloaderEntryName: XeroLinux
     productUrl:          https://xerolinux.xyz/
     supportUrl:          https://xerolinux.xyz/
-#   knownIssuesUrl:      https://techxero.github.io/projects/#xero-linux
-    releaseNotesUrl:     https://xerolinux.xyz/
+    releaseNotesUrl:     https://forum.xerolinux.xyz/thread-4.html
 
 # log feature
 
