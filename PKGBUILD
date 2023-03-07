@@ -1,11 +1,12 @@
-# Maintainer: DarkXero <info@techxero.com>
+# Original Maintainer: DarkXero <info@techxero.com>
+# Maintainer: Yashodhan Sawardekar <rasenkai99@gmail.com>
 pkgname=calamares-config
 _destname1="/etc"
 pkgver=22.12
 pkgrel=3
-pkgdesc="calamares Config for XeroLinux"
+pkgdesc="calamares Config for elytraOS"
 arch=('any')
-url="https://github.com/XeroLinux"
+url="https://github.com/elytraOS"
 license=('GPL3')
 makedepends=('git')
 depends=()
@@ -17,8 +18,6 @@ sha256sums=('SKIP')
 package() {
 	install -dm755 ${pkgdir}${_destname1}
 	cp -r ${srcdir}/${pkgname}${_destname1}/* ${pkgdir}${_destname1}
-	rm ${srcdir}/${pkgname}/creds.sh
-	rm ${srcdir}/${pkgname}/push.sh
 	rm ${srcdir}/${pkgname}/README.md
 	rm ${srcdir}/${pkgname}/PKGBUILD
 }
