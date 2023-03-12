@@ -1,8 +1,8 @@
 # Original Maintainer: DarkXero <info@techxero.com>
 # Maintainer: Yashodhan Sawardekar <rasenkai99@gmail.com>
-pkgname=calamares-config
+pkgname=calamares-cfg
 _destname1="/etc"
-pkgver=22.12
+pkgver=23.03
 pkgrel=3
 pkgdesc="calamares Config for elytraOS"
 arch=('any')
